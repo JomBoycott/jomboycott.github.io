@@ -66,6 +66,7 @@ The campaign is built on two interlinked pillars:
 │   ├── microsoft/dossier.md               # Azure, sekatan teknologi pengawasan 2025, semakan bebas
 │   ├── meta/dossier.md                    # Penyederhanaan kandungan, laporan HRW & BSR, Lembaga Pengawasan
 │   ├── malaysia/dossier.md                # Dasar Cloud First, kebergantungan, Akta CLOUD AS, kedaulatan data
+│   ├── malaysia/education_lockin_pipeline.md # Siasatan Khas: "Free-to-Lock-In Pipeline" dalam pendidikan Malaysia
 │   └── israel-palestine/tech_context.md   # Ekosistem teknologi risikan, AI tentera, konteks undang-undang
 │
 ├── islamic-foundation/                    # Asas & Hujah Syariah Ahli Sunnah Wal Jamaah
@@ -108,7 +109,9 @@ The campaign is built on two interlinked pillars:
     ├── islam.html                         # Asas etika Islam
     ├── malaysia.html                      # Kedaulatan Digital Malaysia
     ├── alternatives.html                  # Direktori alternatif interaktif
+    ├── education.html                     # Siasatan Khas: The Free-to-Lock-In Pipeline Pendidikan Malaysia
     ├── migrate.html                       # Panduan migrasi interaktif
+    ├── media.html                         # Galeri 15 poster & risalah advokasi resolusi tinggi
     ├── research.html                      # Metodologi penyelidikan
     ├── sources.html                       # Bibliografi lengkap
     ├── faq.html                           # Soalan Lazim & Jawapan Hujah Lawan

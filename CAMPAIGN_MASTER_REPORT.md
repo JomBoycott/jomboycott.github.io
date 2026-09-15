@@ -184,6 +184,14 @@ Adakah boikot dan pembebasan teknologi ini sesuatu yang mustahil? Siasatan terke
 
 Bukti-bukti antarabangsa ini menegaskan bahawa usaha Malaysia menuntut kedaulatan digital dan mengurangkan pergantungan kepada Big Tech adalah tindakan yang berpijak di bumi nyata dan diiktiraf di pentas global.
 
+### 9.5 Siasatan Khas: "The Free-to-Lock-In Pipeline" Dalam Pendidikan Malaysia
+Siasatan mendalam kempen mendedahkan bagaimana Google, Microsoft, dan AWS menawan sistem pendidikan negara dari peringkat akar umbi:
+* **K-12 (DELIMa KPM):** 5.3 juta akaun guru dan murid disalurkan terus ke Google Workspace dan Microsoft 365, membiasakan murid seawal usia 7 tahun dengan ekosistem proprietari manakala 420,000 guru diinsentifkan menjadi jurujual tanpa gaji (*Google Certified Educator* & *Microsoft MIEE*).
+* **TVET & Politeknik (JPPKK):** 140,000 pelajar di 36 politeknik distandardkan dengan kurikulum AWS; sistem LMS kebangsaan CIDOS dipindahkan untuk dihoskan terus di pelayan awan Amazon.
+* **Jerangkap Storan (Bait-and-Switch):** Google (Julai 2022) dan Microsoft (Ogos 2024) membatalkan janji storan percuma tanpa had dan mengenakan had 100 TB kumpulan. UTM terpaksa mencatu storan pelajar ke 6 GB sahaja, manakala universiti penyelidikan terpaksa membayar lesen bernilai jutaan Ringgit dalam mata wang asing.
+* **Vakum Perundangan APDP:** Seksyen 3(1) Akta Perlindungan Data Peribadi 2010 mengecualikan kerajaan, menyebabkan data 5.3 juta anak sekolah awam tiada perlindungan statutori tempatan tetapi terdedah kepada Akta CLOUD AS.
+* *(Baca dosier penuh di `research/malaysia/education_lockin_pipeline.md` dan portal kempen di `website/education.html`).*
+
 ---
 
 <a name="seksyen-10-alternatif-sumber-terbuka"></a>
