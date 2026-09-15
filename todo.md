@@ -1231,16 +1231,16 @@ malaysia-tech-justice/
 
 Gemini should execute these first:
 
-* [ ] Establish campaign mission and ethical framework
-* [ ] Research Qur'an 5:2 using recognised Sunni tafsir
-* [ ] Research Bukhari 2444
-* [ ] Build Google evidence dossier
-* [ ] Build Amazon evidence dossier
-* [ ] Build Microsoft evidence dossier
-* [ ] Build Meta evidence dossier
-* [ ] Build Malaysia digital-dependency dossier
-* [ ] Build initial open-source alternatives directory
-* [ ] Produce a fact-checked 10-slide campaign prototype
+* [x] Establish campaign mission and ethical framework
+* [x] Research Qur'an 5:2 using recognised Sunni tafsir
+* [x] Research Bukhari 2444
+* [x] Build Google evidence dossier
+* [x] Build Amazon evidence dossier
+* [x] Build Microsoft evidence dossier
+* [x] Build Meta evidence dossier
+* [x] Build Malaysia digital-dependency dossier
+* [x] Build initial open-source alternatives directory
+* [x] Produce a fact-checked 10-slide campaign prototype
 
 ---
 
