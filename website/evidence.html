@@ -18,14 +18,14 @@
       </a>
       <nav>
         <ul class="nav-links">
-          <li><a href="index.html">Utama</a></li>
-          <li><a href="evidence.html" class="active">Pangkalan Bukti</a></li>
-          <li><a href="companies.html">Syarikat</a></li>
-          <li><a href="alternatives.html">Alternatif FOSS</a></li>
-          <li><a href="migrate.html">Laluan Migrasi</a></li>
-          <li><a href="islam.html">Asas Islam</a></li>
-          <li><a href="malaysia.html">Kedaulatan Malaysia</a></li>
-          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="index.html"><span class="lang-bm">Utama</span><span class="lang-en">Home</span></a></li>
+          <li><a href="evidence.html" class="active"><span class="lang-bm">Pangkalan Bukti</span><span class="lang-en">Evidence Base</span></a></li>
+          <li><a href="companies.html"><span class="lang-bm">Syarikat</span><span class="lang-en">Companies</span></a></li>
+          <li><a href="alternatives.html"><span class="lang-bm">Alternatif FOSS</span><span class="lang-en">FOSS Alternatives</span></a></li>
+          <li><a href="migrate.html"><span class="lang-bm">Laluan Migrasi</span><span class="lang-en">Migration Guide</span></a></li>
+          <li><a href="islam.html"><span class="lang-bm">Asas Islam</span><span class="lang-en">Islamic Ethics</span></a></li>
+          <li><a href="malaysia.html"><span class="lang-bm">Kedaulatan Malaysia</span><span class="lang-en">Malaysian Sovereignty</span></a></li>
+          <li><a href="about.html"><span class="lang-bm">Tentang Kami</span><span class="lang-en">About</span></a></li>
         </ul>
       </nav>
       <div class="nav-actions">
@@ -40,18 +40,18 @@
       <div class="hero-pill">
         <span>🔎</span>
         <span class="lang-bm">Pangkalan Data Bukti Rasmi (evidence.json)</span>
-        <span class="lang-en" style="display: none;">Official Evidence Database (evidence.json)</span>
+        <span class="lang-en">Official Evidence Database (evidence.json)</span>
       </div>
       <h1 class="section-title">
         <span class="lang-bm">Penjelajah Bukti Korporat &amp; Ketenteraan</span>
-        <span class="lang-en" style="display: none;">Corporate &amp; Military Evidence Explorer</span>
+        <span class="lang-en">Corporate &amp; Military Evidence Explorer</span>
       </h1>
       <p class="section-subtitle">
         <span class="lang-bm">
           Setiap dakwaan diklasifikasikan mengikut status pengesahan ketat (VERIFIED, STRONGLY SUPPORTED, DISPUTED) berpandukan dokumen rasmi kerajaan, keputusan mahkamah antarabangsa, dan kewartawanan penyiasatan terkemuka.
         </span>
-        <span class="lang-en" style="display: none;">
-          Every claim is strictly classified by evidentiary status based on official tenders, court filings, and top-tier investigative journalism.
+        <span class="lang-en">
+          Every claim is strictly classified by evidentiary status (VERIFIED, STRONGLY SUPPORTED, DISPUTED) based on official government tenders, international court rulings, and top-tier investigative journalism.
         </span>
       </p>
     </div>
@@ -61,30 +61,34 @@
       <input type="text" id="evidence-search" class="search-input" placeholder="Cari topik, syarikat, atau petikan bukti (cth: Nimbus, Lavender, BSR)...">
       
       <select id="company-filter" class="filter-select" aria-label="Tapis Syarikat">
-        <option value="ALL">Semua Syarikat (All Companies)</option>
+        <option value="ALL">Semua Syarikat / All Companies</option>
         <option value="Google">Google / Alphabet</option>
         <option value="Amazon">Amazon / AWS</option>
         <option value="Microsoft">Microsoft</option>
         <option value="Meta">Meta Platforms</option>
-        <option value="General/Cross-Platform">Umum / Rentas Platform</option>
+        <option value="General/Cross-Platform">Umum / Cross-Platform</option>
       </select>
 
       <select id="status-filter" class="filter-select" aria-label="Tapis Status Bukti">
-        <option value="ALL">Semua Status (All Statuses)</option>
-        <option value="VERIFIED">Disahkan (VERIFIED - Tier 1)</option>
-        <option value="STRONGLY_SUPPORTED">Disokong Kuat (STRONGLY SUPPORTED - Tier 2)</option>
-        <option value="DISPUTED">Dipertikaikan (DISPUTED)</option>
+        <option value="ALL">Semua Status / All Statuses</option>
+        <option value="VERIFIED">Disahkan / VERIFIED (Tier 1)</option>
+        <option value="STRONGLY_SUPPORTED">Disokong Kuat / STRONGLY SUPPORTED (Tier 2)</option>
+        <option value="DISPUTED">Dipertikaikan / DISPUTED</option>
       </select>
 
       <span id="evidence-count" class="badge badge-verified" style="padding: 0.5rem 0.75rem; font-size: 0.8125rem;">
-        Memuatkan...
+        <span class="lang-bm">Memuatkan...</span>
+        <span class="lang-en">Loading...</span>
       </span>
     </div>
 
     <!-- Evidence Container -->
     <div id="evidence-container">
       <div style="text-align: center; padding: 2rem;">
-        <p>Memuatkan pangkalan data bukti...</p>
+        <p>
+          <span class="lang-bm">Memuatkan pangkalan data bukti...</span>
+          <span class="lang-en">Loading evidence database...</span>
+        </p>
       </div>
     </div>
   </main>
@@ -93,7 +97,10 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom">
-        <p>© 2024–2026 Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia. Data fail: <code>evidence/evidence.json</code>.</p>
+        <p>
+          <span class="lang-bm">© 2024–2026 Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia. Data fail: <code>evidence/evidence.json</code>.</span>
+          <span class="lang-en">© 2024–2026 Malaysian Open-Source Tech Accountability Campaign. Data file: <code>evidence/evidence.json</code>.</span>
+        </p>
       </div>
     </div>
   </footer>

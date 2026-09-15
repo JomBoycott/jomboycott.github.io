@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+/* ================= Global State ================= */
+let currentLang = localStorage.getItem('lang') || 'bm';
+let activeRenderEvidence = null;
+let activeRenderAlternatives = null;
+
 /* ================= Theme Toggle ================= */
 function initTheme() {
   const toggleBtn = document.getElementById('theme-toggle');
@@ -40,13 +45,17 @@ function initTheme() {
 
 function updateThemeButtonText(btn, theme) {
   if (!btn) return;
-  btn.textContent = theme === 'dark' ? '☀️ Cerah' : '🌙 Gelap';
+  const isEn = currentLang === 'en';
+  if (isEn) {
+    btn.textContent = theme === 'dark' ? '☀️ Light' : '🌙 Dark';
+  } else {
+    btn.textContent = theme === 'dark' ? '☀️ Cerah' : '🌙 Gelap';
+  }
 }
 
 /* ================= Language Toggle ================= */
 function initLanguage() {
   const langToggle = document.getElementById('lang-toggle');
-  let currentLang = localStorage.getItem('lang') || 'bm';
 
   applyLanguage(currentLang);
 
@@ -60,11 +69,37 @@ function initLanguage() {
 }
 
 function applyLanguage(lang) {
+  currentLang = lang;
+  document.documentElement.setAttribute('data-lang', lang);
+  document.documentElement.setAttribute('lang', lang === 'bm' ? 'ms' : 'en');
+
   const langToggle = document.getElementById('lang-toggle');
   if (langToggle) {
     langToggle.textContent = lang === 'bm' ? '🌐 English' : '🌐 B. Melayu';
   }
 
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    updateThemeButtonText(themeToggle, currentTheme);
+  }
+
+  // Update input placeholders
+  const evidenceSearch = document.getElementById('evidence-search');
+  if (evidenceSearch) {
+    evidenceSearch.placeholder = lang === 'bm'
+      ? 'Cari topik, syarikat, atau petikan bukti (cth: Nimbus, Lavender, BSR)...'
+      : 'Search topic, company, or evidence quote (e.g. Nimbus, Lavender, BSR)...';
+  }
+
+  const altSearch = document.getElementById('alt-search');
+  if (altSearch) {
+    altSearch.placeholder = lang === 'bm'
+      ? 'Cari alternatif (cth: Nextcloud, Linux, Signal)...'
+      : 'Search alternatives (e.g. Nextcloud, Linux, Signal)...';
+  }
+
+  // Toggle .lang-bm and .lang-en
   const bmElements = document.querySelectorAll('.lang-bm');
   const enElements = document.querySelectorAll('.lang-en');
 
@@ -74,6 +109,14 @@ function applyLanguage(lang) {
   } else {
     bmElements.forEach(el => el.style.display = 'none');
     enElements.forEach(el => el.style.display = '');
+  }
+
+  // Re-render active dynamic data views
+  if (typeof activeRenderEvidence === 'function') {
+    activeRenderEvidence();
+  }
+  if (typeof activeRenderAlternatives === 'function') {
+    activeRenderAlternatives();
   }
 }
 
@@ -112,6 +155,7 @@ async function initEvidenceExplorer() {
   }
 
   function renderEvidence() {
+    const isEn = currentLang === 'en';
     const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
     const company = companyFilter ? companyFilter.value : 'ALL';
     const status = statusFilter ? statusFilter.value : 'ALL';
@@ -128,13 +172,13 @@ async function initEvidenceExplorer() {
     });
 
     if (countBadge) {
-      countBadge.textContent = `${filtered.length} rekod`;
+      countBadge.textContent = isEn ? `${filtered.length} records` : `${filtered.length} rekod`;
     }
 
     if (filtered.length === 0) {
       container.innerHTML = `
         <div class="card" style="text-align: center; padding: 2rem;">
-          <p class="card-desc">Tiada rekod bukti sepadan dengan kriteria carian anda.</p>
+          <p class="card-desc">${isEn ? 'No evidence records match your search criteria.' : 'Tiada rekod bukti sepadan dengan kriteria carian anda.'}</p>
         </div>
       `;
       return;
@@ -162,22 +206,24 @@ async function initEvidenceExplorer() {
           "${escapeHtml(item.quote_or_evidence)}"
         </div>
         <p style="font-size: 0.875rem; color: var(--text-secondary);">
-          <strong>Nuansa / Maklum Balas:</strong> ${escapeHtml(item.counterclaim_or_nuance)}
+          <strong>${isEn ? 'Nuance / Response:' : 'Nuansa / Maklum Balas:'}</strong> ${escapeHtml(item.counterclaim_or_nuance)}
         </p>
         <div class="data-card-footer">
           <div>
-            <strong>Sumber:</strong> 
+            <strong>${isEn ? 'Source:' : 'Sumber:'}</strong> 
             <a href="${item.source_url}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); text-decoration: underline;">
               ${escapeHtml(item.source_title)}
             </a> (${item.source_type})
           </div>
           <div style="color: var(--text-muted); font-size: 0.75rem;">
-            Disahkan: ${item.last_verified}
+            ${isEn ? 'Verified:' : 'Disahkan:'} ${item.last_verified}
           </div>
         </div>
       </div>
     `).join('');
   }
+
+  activeRenderEvidence = renderEvidence;
 
   if (searchInput) searchInput.addEventListener('input', renderEvidence);
   if (companyFilter) companyFilter.addEventListener('change', renderEvidence);
@@ -208,6 +254,7 @@ async function initAlternativesDirectory() {
   }
 
   function renderAlternatives() {
+    const isEn = currentLang === 'en';
     const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
     const category = categoryFilter ? categoryFilter.value : 'ALL';
 
@@ -222,13 +269,13 @@ async function initAlternativesDirectory() {
     });
 
     if (countBadge) {
-      countBadge.textContent = `${filtered.length} alternatif`;
+      countBadge.textContent = isEn ? `${filtered.length} alternatives` : `${filtered.length} alternatif`;
     }
 
     if (filtered.length === 0) {
       container.innerHTML = `
         <div class="card" style="text-align: center; padding: 2rem;">
-          <p class="card-desc">Tiada perisian alternatif sepadan dengan carian anda.</p>
+          <p class="card-desc">${isEn ? 'No software alternatives match your search criteria.' : 'Tiada perisian alternatif sepadan dengan carian anda.'}</p>
         </div>
       `;
       return;
@@ -242,32 +289,32 @@ async function initAlternativesDirectory() {
             <span style="font-weight: 700; margin-left: 0.5rem; color: var(--accent-purple);">${item.category}</span>
           </div>
           <div class="data-card-meta">
-            <span>Lesen: ${item.license}</span>
+            <span>${isEn ? 'License:' : 'Lesen:'} ${item.license}</span>
             <span>•</span>
-            <span>Tahap: ${item.difficulty}</span>
+            <span>${isEn ? 'Difficulty:' : 'Tahap:'} ${item.difficulty}</span>
           </div>
         </div>
         <div style="display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap;">
           <h3 class="data-card-title" style="font-size: 1.35rem;">${escapeHtml(item.project)}</h3>
           <span style="font-size: 0.875rem; color: var(--text-muted);">
-            Menggantikan: <strong>${item.replaces.join(', ')}</strong>
+            ${isEn ? 'Replaces:' : 'Menggantikan:'} <strong>${item.replaces.join(', ')}</strong>
           </span>
         </div>
         <p style="font-size: 0.9375rem; color: var(--text-secondary);">
-          <strong>Kesesuaian Malaysia:</strong> ${escapeHtml(item.malaysian_suitability_summary)}
+          <strong>${isEn ? 'Suitability for Malaysia:' : 'Kesesuaian Malaysia:'}</strong> ${escapeHtml(item.malaysian_suitability_summary)}
         </p>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; font-size: 0.8125rem; background: var(--bg-surface-elevated); padding: 0.75rem; border-radius: var(--radius-sm);">
-          <div><strong>Storan/RAM:</strong> ${escapeHtml(item.self_hosting_requirements)}</div>
-          <div><strong>Model Kos:</strong> ${escapeHtml(item.cost_model)}</div>
-          <div><strong>Privasi:</strong> ${escapeHtml(item.privacy_rating)}</div>
+          <div><strong>${isEn ? 'Storage/RAM:' : 'Storan/RAM:'}</strong> ${escapeHtml(item.self_hosting_requirements)}</div>
+          <div><strong>${isEn ? 'Cost Model:' : 'Model Kos:'}</strong> ${escapeHtml(item.cost_model)}</div>
+          <div><strong>${isEn ? 'Privacy:' : 'Privasi:'}</strong> ${escapeHtml(item.privacy_rating)}</div>
         </div>
         <div class="data-card-footer">
           <div style="display: flex; gap: 1rem;">
             <a href="${item.website}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); font-weight: 600; text-decoration: underline;">
-              Laman Web Projek ↗
+              ${isEn ? 'Project Website ↗' : 'Laman Web Projek ↗'}
             </a>
             <a href="${item.github}" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: underline;">
-              Kod Sumber (GitHub/Git) ↗
+              ${isEn ? 'Source Code ↗' : 'Kod Sumber (GitHub/Git) ↗'}
             </a>
           </div>
           <div style="color: var(--text-muted); font-size: 0.75rem;">
@@ -277,6 +324,8 @@ async function initAlternativesDirectory() {
       </div>
     `).join('');
   }
+
+  activeRenderAlternatives = renderAlternatives;
 
   if (searchInput) searchInput.addEventListener('input', renderAlternatives);
   if (categoryFilter) categoryFilter.addEventListener('change', renderAlternatives);

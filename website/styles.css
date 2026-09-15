@@ -593,3 +593,18 @@ body {
     justify-content: space-between;
   }
 }
+
+/* ================= Language Switching ================= */
+html[data-lang="bm"] .lang-en,
+:root:not([data-lang="en"]) .lang-en {
+  display: none !important;
+}
+
+html[data-lang="en"] .lang-bm {
+  display: none !important;
+}
+
+html[data-lang="en"] .lang-en {
+  display: revert !important;
+}
+
