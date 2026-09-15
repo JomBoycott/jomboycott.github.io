@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direktori Alternatif Sumber Terbuka | Amanah Digital Malaysia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-link">
+        <span class="brand-badge">MOTAC</span>
+        <span>Amanah Digital Malaysia</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Utama</a></li>
+          <li><a href="evidence.html">Pangkalan Bukti</a></li>
+          <li><a href="companies.html">Syarikat</a></li>
+          <li><a href="alternatives.html" class="active">Alternatif FOSS</a></li>
+          <li><a href="migrate.html">Laluan Migrasi</a></li>
+          <li><a href="islam.html">Asas Islam</a></li>
+          <li><a href="malaysia.html">Kedaulatan Malaysia</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-icon" aria-label="Tukar Bahasa">🌐 English</button>
+        <button id="theme-toggle" class="btn-icon" aria-label="Tukar Tema">🌙 Gelap</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-header">
+      <div class="hero-pill">
+        <span>💡</span>
+        <span class="lang-bm">Direktori Perisian Berdaulat &amp; Sumber Terbuka</span>
+        <span class="lang-en" style="display: none;">Open-Source Sovereign Software Directory</span>
+      </div>
+      <h1 class="section-title">
+        <span class="lang-bm">Pilihan Alternatif Untuk Rakyat Malaysia</span>
+        <span class="lang-en" style="display: none;">Open-Source Alternatives for Malaysians</span>
+      </h1>
+      <p class="section-subtitle">
+        <span class="lang-bm">
+          Bukan sekadar memboikot; kami menyediakan senarai 17 kategori perisian sumber terbuka yang stabil, selamat, dan menjimatkan kos untuk kegunaan individu, PKS, sekolah, dan agensi awam.
+        </span>
+        <span class="lang-en" style="display: none;">
+          Beyond boycotting; 17 categories of production-ready open-source alternatives for citizens, SMEs, and public institutions.
+        </span>
+      </p>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <input type="text" id="alt-search" class="search-input" placeholder="Cari perisian (cth: Nextcloud, LibreOffice, ganti WhatsApp, Ollama)...">
+
+      <select id="category-filter" class="filter-select" aria-label="Tapis Kategori">
+        <option value="ALL">Semua 17 Kategori (All Categories)</option>
+        <option value="Search">Carian (Search)</option>
+        <option value="Email">E-mel (Email)</option>
+        <option value="Cloud Storage">Storan Awan (Cloud Storage)</option>
+        <option value="Office & Productivity">Suite Pejabat (Office)</option>
+        <option value="Video Conferencing">Sidang Video (Video)</option>
+        <option value="Messaging">Pemesejan (Messaging)</option>
+        <option value="Social Media">Media Sosial (Social)</option>
+        <option value="Operating Systems">Sistem Operasi (OS)</option>
+        <option value="Cloud Infrastructure">Infrastruktur Awan (IaaS)</option>
+        <option value="Kubernetes & Orchestration">Orkestrasi K8s &amp; Tofu</option>
+        <option value="Artificial Intelligence">Kecerdasan Buatan (AI)</option>
+        <option value="Image Generation">Penjanaan Imej</option>
+        <option value="Video Generation">Penjanaan Video</option>
+        <option value="Databases">Pangkalan Data (DB)</option>
+        <option value="DevOps & CI/CD">DevOps &amp; CI/CD</option>
+        <option value="Monitoring & Observability">Pemantauan Pelayan</option>
+        <option value="Authentication & Identity">Identiti &amp; Pengesahan</option>
+      </select>
+
+      <span id="alt-count" class="badge badge-verified" style="padding: 0.5rem 0.75rem; font-size: 0.8125rem;">
+        Memuatkan...
+      </span>
+    </div>
+
+    <!-- Alternatives Container -->
+    <div id="alternatives-container">
+      <div style="text-align: center; padding: 2rem;">
+        <p>Memuatkan direktori alternatif...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2024–2026 Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia. Data fail: <code>alternatives/alternatives.json</code>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

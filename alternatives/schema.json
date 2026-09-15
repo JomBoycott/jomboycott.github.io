@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenSourceAlternativeSchema",
+  "description": "Schema for open-source software and infrastructure alternatives to Big Tech proprietary services.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "project",
+      "category",
+      "replaces",
+      "license",
+      "website",
+      "github",
+      "self_hosting_requirements",
+      "difficulty",
+      "cost_model",
+      "privacy_rating",
+      "maturity",
+      "malaysian_suitability_summary"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^ALT-[0-9]{3,}$"
+      },
+      "project": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "Search",
+          "Email",
+          "Cloud Storage",
+          "Office & Productivity",
+          "Video Conferencing",
+          "Messaging",
+          "Social Media",
+          "Operating Systems",
+          "Cloud Infrastructure",
+          "Kubernetes & Orchestration",
+          "Artificial Intelligence",
+          "Image Generation",
+          "Video Generation",
+          "Databases",
+          "DevOps & CI/CD",
+          "Monitoring & Observability",
+          "Authentication & Identity"
+        ]
+      },
+      "replaces": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "license": {
+        "type": "string"
+      },
+      "website": {
+        "type": "string"
+      },
+      "github": {
+        "type": "string"
+      },
+      "self_hosting_requirements": {
+        "type": "string"
+      },
+      "difficulty": {
+        "type": "string",
+        "enum": ["Beginner", "Intermediate", "Advanced"]
+      },
+      "cost_model": {
+        "type": "string"
+      },
+      "privacy_rating": {
+        "type": "string"
+      },
+      "maturity": {
+        "type": "string",
+        "enum": ["Battle-Tested", "Production-Ready", "Emerging"]
+      },
+      "malaysian_suitability_summary": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

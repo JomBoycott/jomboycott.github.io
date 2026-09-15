@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceRecordSchema",
+  "description": "Schema for evidence records tracking Big Tech corporate contracts, military usage, and platform policy claims.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "company",
+      "topic",
+      "claim",
+      "status",
+      "source_tier",
+      "source_type",
+      "source_title",
+      "source_url",
+      "publication_date",
+      "quote_or_evidence",
+      "counterclaim_or_nuance",
+      "last_verified"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^EVID-[0-9]{3,}$"
+      },
+      "company": {
+        "type": "string",
+        "enum": ["Google", "Amazon", "Microsoft", "Meta", "General/Cross-Platform"]
+      },
+      "topic": {
+        "type": "string"
+      },
+      "claim": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "VERIFIED",
+          "STRONGLY_SUPPORTED",
+          "REPORTED",
+          "DISPUTED",
+          "UNVERIFIED",
+          "FALSE",
+          "OUTDATED"
+        ]
+      },
+      "source_tier": {
+        "type": "string",
+        "enum": ["Tier 1", "Tier 2", "Tier 3", "Tier 4"]
+      },
+      "source_type": {
+        "type": "string"
+      },
+      "source_title": {
+        "type": "string"
+      },
+      "source_url": {
+        "type": "string"
+      },
+      "publication_date": {
+        "type": "string",
+        "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+      },
+      "quote_or_evidence": {
+        "type": "string"
+      },
+      "counterclaim_or_nuance": {
+        "type": "string"
+      },
+      "last_verified": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      }
+    },
+    "additionalProperties": false
+  }
+}
