@@ -100,7 +100,10 @@ async function initEvidenceExplorer() {
   let evidenceData = [];
 
   try {
-    const res = await fetch('../evidence/evidence.json');
+    let res = await fetch('data/evidence.json');
+    if (!res.ok) {
+      res = await fetch('../evidence/evidence.json');
+    }
     if (!res.ok) throw new Error('Network error');
     evidenceData = await res.json();
   } catch (err) {
@@ -193,7 +196,10 @@ async function initAlternativesDirectory() {
   let alternativesData = [];
 
   try {
-    const res = await fetch('../alternatives/alternatives.json');
+    let res = await fetch('data/alternatives.json');
+    if (!res.ok) {
+      res = await fetch('../alternatives/alternatives.json');
+    }
     if (!res.ok) throw new Error('Network error');
     alternativesData = await res.json();
   } catch (err) {
