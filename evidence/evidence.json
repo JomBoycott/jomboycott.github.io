@@ -238,5 +238,20 @@
     "quote_or_evidence": "The software algorithms were developed internally by military data scientists in intelligence units, while underlying cloud hosting and storage pipelines utilize government-procured commercial infrastructure.",
     "counterclaim_or_nuance": "Careful analytical distinction must be maintained to avoid falsely claiming that Silicon Valley engineers directly program drone strike targets.",
     "last_verified": "2026-09-15"
+  },
+  {
+    "id": "EVID-017",
+    "company": "General/Cross-Platform",
+    "topic": "European State Divestment & Open-Source Sovereignty (Wired 2026)",
+    "claim": "European governments and public bodies (including German state Schleswig-Holstein, French ministries, Danish schools, and the EU Commission) are actively ditching Microsoft, Google, and US hyperscalers for Linux, LibreOffice, Nextcloud, and Matrix due to privacy, security, and digital sovereignty concerns.",
+    "status": "VERIFIED",
+    "source_tier": "Tier 2",
+    "source_type": "Major Tech Investigative Journalism",
+    "source_title": "Wired: All the Ways Europe Is Ditching American Technology",
+    "source_url": "https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/",
+    "publication_date": "2026-06-08",
+    "quote_or_evidence": "Across Europe, a growing number of governments, schools, and state organizations are turning their backs on US tech giants like Microsoft and Google, migrating tens of thousands of civil servants to Linux, LibreOffice, and open-source infrastructure to reclaim digital sovereignty.",
+    "counterclaim_or_nuance": "While European states face challenges in completely replacing deep-rooted US tech infrastructure, the shift demonstrates that enterprise-scale FOSS migration is technically and legally viable.",
+    "last_verified": "2026-09-15"
   }
 ]

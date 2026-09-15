@@ -175,6 +175,15 @@ Insiden pemadaman ucapan dan hantaran rasmi Perdana Menteri Malaysia oleh Meta p
 ### 9.3 Penirisan Aliran Tunai Nasional
 Setiap tahun, berbilion Ringgit mengalir keluar dalam bentuk yuran pelesenan perisian dan langganan awan USD, menjejaskan pembangunan industri perisian tempatan.
 
+### 9.4 Preseden Antarabangsa: Siasatan Wired Mengenai Eropah Meninggalkan Teknologi Amerika
+Adakah boikot dan pembebasan teknologi ini sesuatu yang mustahil? Siasatan terkemuka majalah **Wired** (Jun 2026) bertajuk *"All the Ways Europe Is Ditching American Technology"* membuktikan bahawa langkah ini telah menjadi dasar rasmi kerajaan-kerajaan termaju di Eropah:
+* **Jerman (Schleswig-Holstein):** Memindahkan 30,000 komputer penjawat awam daripada Windows dan Microsoft Office kepada Linux, LibreOffice, Nextcloud, dan Matrix. Angkatan Tentera Jerman (Bundeswehr) menggantikan WhatsApp dengan melancarkan pemesejan berasaskan Matrix (*BwMessenger*).
+* **Perancis:** Mengharamkan penggunaan Google Workspace dan Microsoft 365 di sekolah-sekolah awam kerana isu privasi data, serta mewajibkan aplikasi sumber terbuka *Tchap* (Matrix) untuk kakitangan kementerian.
+* **Denmark:** Agensi Perlindungan Data mengharamkan Google Chromebooks dan Workspace di sekolah perbandaran Helsingør kerana penghantaran data murid ke pelayan AS tanpa perlindungan undang-undang yang sah.
+* **Kesatuan Eropah (EDPS):** Pada Mac 2024, Pengawas Perlindungan Data Eropah memutuskan Suruhanjaya Eropah melanggar undang-undang perlindungan data akibat penggunaan Microsoft 365, mengarahkan penggantungan pemindahan data telemetri ke AS.
+
+Bukti-bukti antarabangsa ini menegaskan bahawa usaha Malaysia menuntut kedaulatan digital dan mengurangkan pergantungan kepada Big Tech adalah tindakan yang berpijak di bumi nyata dan diiktiraf di pentas global.
+
 ---
 
 <a name="seksyen-10-alternatif-sumber-terbuka"></a>
@@ -238,6 +247,7 @@ Hasil ujian adversarial ini memastikan:
 8. Tafsir Ibn Kathir, Tafsir al-Sa'di, dan Tafsir al-Qurtubi bagi Surah Al-Ma'idah 5:2.
 9. Sahih al-Bukhari, Hadis No. 2444 (*Kitab al-Mazalim*).
 10. Kementerian Digital Malaysia, *Dasar Pengkomputeran Awan Negara (NCCP)*, Ogos 2025.
+11. Wired Magazine, *All the Ways Europe Is Ditching American Technology* (Matt Burgess, Jun 2026).
 
 ---
 

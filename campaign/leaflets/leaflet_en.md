@@ -55,6 +55,7 @@ The purpose of this campaign is not to demand that Malaysians disconnect from th
 #### Step 4: Demand Sovereign National Infrastructure
 * Malaysia launched the National Cloud Computing Policy (NCCP) in August 2025.
 * Citizens and businesses must advocate for public sector agencies and universities to avoid total vendor lock-in with foreign hyperscalers subject to the extraterritorial reach of the US CLOUD Act.
+* Follow Europe's lead: German states (30,000 PCs to Linux) and French ministries have banned Google & Microsoft 365 in schools to reclaim digital sovereignty!
 * Champion homegrown, world-class datacenters (such as TM One and AIMS) and invest in Malaysian software engineering talent.
 
 ---

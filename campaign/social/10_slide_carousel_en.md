@@ -88,6 +88,7 @@
   * 💬 Messaging: Replace WhatsApp ➔ **Signal** / **Matrix (Element)**
   * 📁 Cloud Files: Replace Google Drive ➔ **Nextcloud Hub**
   * 📝 Documents: Replace MS Office ➔ **LibreOffice** (Free, Open, Secure)
+  * 🌍 Global Precedent: Germany (30,000 public PCs) & France are officially ditching MS & Google for Linux & Nextcloud!
   * 🇲🇾 Sovereign Cloud: Support local Malaysian hosting (TM One, AIMS).
 
 ---

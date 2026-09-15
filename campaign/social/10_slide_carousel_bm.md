@@ -88,6 +88,7 @@
   * 💬 Gantikan WhatsApp ➔ **Signal** / **Element (Matrix)**
   * 📁 Gantikan Google Drive ➔ **Nextcloud**
   * 📝 Gantikan MS Office ➔ **LibreOffice** (Percuma & Stabil)
+  * 🌍 Preseden Nyata: Jerman (30,000 PC pentadbiran) & Perancis kini beralih rasmi ke Linux & Nextcloud!
   * 🇲🇾 Tuntut Kedaulatan Data: Sokong pusat data tempatan (TM One, AIMS).
 
 ---

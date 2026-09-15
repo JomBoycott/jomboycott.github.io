@@ -49,6 +49,9 @@ Penyelidikan Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia dikawal seli
 10. **The Intercept**
     * Biddle, Sam. *"Documents Reveal Advanced AI Capabilities Offered to Israel by Google Under Project Nimbus,"* The Intercept, 24 July 2022.
 
+11. **Wired Magazine**
+    * Burgess, Matt. *"All the Ways Europe Is Ditching American Technology,"* Wired, 8 June 2026. [https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/](https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/)
+
 ---
 
 ## TAHAP 3: Pertubuhan Hak Asasi & Kajian Khusus (Tier 3 — Specialist Organisations)

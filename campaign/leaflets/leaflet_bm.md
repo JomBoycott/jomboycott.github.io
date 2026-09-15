@@ -55,6 +55,7 @@ Matlamat kempen ini bukan meminta anda membaling telefon pintar anda ke laut, te
 #### Langkah 4: Tuntut Kedaulatan Data Nasional
 * Malaysia telah melancarkan Dasar Pengkomputeran Awan Negara (NCCP) pada Ogos 2025.
 * Kita perlu mendesak agensi kerajaan, sekolah, dan universiti awam agar tidak menyerahkan 100% data rakyat kepada hyperscaler asing di bawah Akta CLOUD Amerika Syarikat.
+* Contohi kerajaan Jerman (memindahkan 30,000 PC ke Linux/LibreOffice) dan Perancis yang melarang Google & Microsoft 365 di sekolah demi kedaulatan data!
 * Sokong pusat data tempatan bertaraf dunia milik Malaysia (seperti TM One dan AIMS) dan martabatkan kepakaran jurutera perisian tempatan.
 
 ---

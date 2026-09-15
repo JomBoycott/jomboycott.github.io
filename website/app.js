@@ -379,6 +379,21 @@ function getFallbackEvidence() {
       quote_or_evidence: "Meta's actions appear to have had an adverse human rights impact on Palestinian users' rights to freedom of expression.",
       counterclaim_or_nuance: "BSR found no intentional bias by Meta staff, attributing issues to algorithmic misclassification.",
       last_verified: "2026-09-15"
+    },
+    {
+      id: "EVID-017",
+      company: "General/Cross-Platform",
+      topic: "European State Divestment & FOSS Migration (Wired Investigation)",
+      claim: "European governments and public bodies are systematically replacing American Big Tech (Microsoft, Google, AWS) with open-source software and sovereign infrastructure due to CLOUD Act surveillance, surging license costs, and sovereignty risks.",
+      status: "VERIFIED",
+      source_tier: "Tier 2",
+      source_type: "Investigative Journalism / Public Government Decrees",
+      source_title: "Wired: All the Ways Europe Is Ditching American Technology",
+      source_url: "https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/",
+      publication_date: "2026-06-10",
+      quote_or_evidence: "From German states migrating 30,000 PCs to Linux and LibreOffice, to French ministries banning Microsoft 365 and Google Workspace in schools, European administrations are actively ditching US cloud giants in favor of sovereign, open source stacks.",
+      counterclaim_or_nuance: "Transitioning large public administrations requires careful change management and legacy format compatibility.",
+      last_verified: "2026-09-15"
     }
   ];
 }

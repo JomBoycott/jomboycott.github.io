@@ -30,6 +30,7 @@ Boycotting without viable substitutes leads to paralysis. Malaysians must proact
 * **Replace Google Drive / OneDrive:** Migrate files to **Nextcloud** (self-hosted or local cloud).
 * **Replace WhatsApp:** Communicate via **Signal** or **Matrix / Element** (open encrypted protocol).
 * **Replace Microsoft Office:** Use **LibreOffice** (free, open document standards, zero licensing fees).
+* **European Precedent:** Germany (30,000 PCs) and France are officially ditching Microsoft & Google for Linux and Nextcloud.
 * **Support Local Datacenters:** Choose Malaysian-hosted cloud providers (TM One, AIMS) to safeguard data under national sovereignty and prevent extraterritorial seizure under the US CLOUD Act.
 
 ---

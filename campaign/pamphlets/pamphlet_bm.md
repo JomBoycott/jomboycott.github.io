@@ -30,6 +30,7 @@ Boikot semata-mata tidak memadai jika kita tiada pengganti. Rakyat Malaysia mest
 * **Gantikan Google Drive / OneDrive:** Beralih ke **Nextcloud** (storan peribadi berdaulat).
 * **Gantikan WhatsApp:** Gunakan **Signal** atau **Matrix / Element** (enkripsi hujung-ke-hujung tulen).
 * **Gantikan Microsoft Office:** Pasang **LibreOffice** (percuma, format terbuka, tiada yuran lesen).
+* **Preseden Eropah:** Kerajaan Jerman (30,000 PC) dan Perancis kini rasmi menolak Microsoft & Google ke arah Linux dan Nextcloud demi kedaulatan.
 * **Sokong Pusat Data Tempatan:** Sokong pengehosan di pusat data berdaulat Malaysia (TM One, AIMS) bagi melindungi kedaulatan data negara di bawah Akta Perlindungan Data Peribadi.
 
 ---
