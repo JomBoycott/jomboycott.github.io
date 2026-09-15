@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#02201b" />
+    </linearGradient>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg13)" />
+
+  <!-- Top Header -->
+  <rect x="70" y="55" width="940" height="42" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+  <text x="95" y="82" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#10b981" letter-spacing="2">CAMPAIGN LEAFLET #13</text>
+  <text x="985" y="82" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="end" letter-spacing="1">MIGRATION ROADMAP • PRACTICAL EXECUTION</text>
+
+  <!-- Title Section -->
+  <text x="70" y="145" font-family="IBM Plex Sans, sans-serif" font-size="40" font-weight="800" fill="#f8fafc">THE 6-LEVEL TECH EXIT ROADMAP</text>
+  <text x="70" y="185" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">A Systematic Path from Big Tech Complicity to Total Sovereign Autonomy</text>
+
+  <!-- 6 Horizontal Step Rows -->
+  <!-- Level 1 -->
+  <rect x="70" y="225" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="240" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="262" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 1 • 1 DAY</text>
+  <text x="235" y="264" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">DNS, Browsing &amp; Private Search</text>
+  <text x="85" y="305" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">Replace Google Chrome &amp; Google Search with Brave / Firefox + SearXNG / Kagi.</text>
+  <text x="85" y="330" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">Deploy NextDNS or AdGuard Home to block 100% of telemetry and tracker pings.</text>
+
+  <!-- Level 2 -->
+  <rect x="70" y="365" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="380" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="402" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 2 • 1 WEEK</text>
+  <text x="235" y="404" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">Communications &amp; Team Chat</text>
+  <text x="85" y="445" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">Migrate personal chat from WhatsApp to Signal. Replace Slack &amp; MS Teams with</text>
+  <text x="85" y="470" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">self-hosted Matrix / Element or Mattermost with zero US-based server logging.</text>
+
+  <!-- Level 3 -->
+  <rect x="70" y="505" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="520" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="542" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 3 • 2 WEEKS</text>
+  <text x="235" y="544" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">Cloud Storage &amp; Office Collaboration</text>
+  <text x="85" y="585" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">Replace Google Drive / OneDrive with Nextcloud or Proton Drive.</text>
+  <text x="85" y="610" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">Adopt CryptPad and LibreOffice for collaborative documents with end-to-end encryption.</text>
+
+  <!-- Level 4 -->
+  <rect x="70" y="645" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="660" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="682" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 4 • 1 MONTH</text>
+  <text x="235" y="684" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">Cloud Virtualization &amp; Hosting</text>
+  <text x="85" y="725" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">Migrate backend services from AWS / GCP / Azure to local sovereign data centres</text>
+  <text x="85" y="750" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">(TM One, AIMS) or independent ethical clouds (Hetzner, OVH) with Proxmox VE.</text>
+
+  <!-- Level 5 -->
+  <rect x="70" y="785" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="800" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="822" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 5 • 2 MONTHS</text>
+  <text x="235" y="824" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">Artificial Intelligence &amp; Local Inference</text>
+  <text x="85" y="865" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">Replace proprietary OpenAI / Google Vertex APIs with local open-weight models</text>
+  <text x="85" y="890" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">(Ollama, DeepSeek, vLLM, Hugging Face) hosted on your own server hardware.</text>
+
+  <!-- Level 6 -->
+  <rect x="70" y="925" width="940" height="125" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+  <rect x="85" y="940" width="130" height="34" rx="6" fill="#065f46" />
+  <text x="150" y="962" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#a7f3d0" text-anchor="middle">LEVEL 6 • ONGOING</text>
+  <text x="235" y="964" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">Operating Systems &amp; Hardware Freedom</text>
+  <text x="85" y="1005" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">De-commission Windows &amp; macOS desktops in favor of Linux (Ubuntu, Debian, Pop!_OS).</text>
+  <text x="85" y="1030" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="700" fill="#34d399">De-Google mobile devices using GrapheneOS; achieve 100% digital autonomy.</text>
+
+  <!-- Bottom Message -->
+  <rect x="70" y="1065" width="940" height="75" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+  <text x="100" y="1108" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">"You do not need to execute everything in one night. Begin Level 1 today, and keep progressing."</text>
+
+  <!-- Footer -->
+  <line x1="70" y1="1170" x2="1010" y2="1170" stroke="#334155" stroke-width="1" />
+  <text x="70" y="1210" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="800" fill="#f8fafc" letter-spacing="1">MALAYSIA OPEN-SOURCE &amp; TECH BOYCOTT COALITION</text>
+  <text x="70" y="1238" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#94a3b8">Digital Sovereignty • Ethical Computing • Islamic Accountability</text>
+  
+  <rect x="770" y="1190" width="240" height="42" rx="8" fill="url(#stepGrad)" />
+  <text x="890" y="1217" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">DOWNLOAD &amp; SHARE</text>
+  
+  <text x="70" y="1290" font-family="IBM Plex Mono, monospace" font-size="13" fill="#64748b">http://localhost:9191 • campaign/posters/poster_13_creative_6_level_roadmap.png</text>
+</svg>

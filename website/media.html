@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Risalah &amp; Poster Kempen | Amanah Digital Malaysia</title>
+  <meta name="description" content="Muat turun risalah dan poster kempen resolusi tinggi (1080x1350) berasaskan ayat Al-Qur'an, Hadith sahih, kedaulatan digital Malaysia, dan advokasi teknologi sumber terbuka.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-link">
+        <span class="brand-badge">MOTAC</span>
+        <span>Amanah Digital Malaysia</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html"><span class="lang-bm">Utama</span><span class="lang-en">Home</span></a></li>
+          <li><a href="evidence.html"><span class="lang-bm">Pangkalan Bukti</span><span class="lang-en">Evidence Base</span></a></li>
+          <li><a href="companies.html"><span class="lang-bm">Syarikat</span><span class="lang-en">Companies</span></a></li>
+          <li><a href="alternatives.html"><span class="lang-bm">Alternatif FOSS</span><span class="lang-en">FOSS Alternatives</span></a></li>
+          <li><a href="migrate.html"><span class="lang-bm">Laluan Migrasi</span><span class="lang-en">Migration Guide</span></a></li>
+          <li><a href="islam.html"><span class="lang-bm">Asas Islam</span><span class="lang-en">Islamic Ethics</span></a></li>
+          <li><a href="malaysia.html"><span class="lang-bm">Kedaulatan Malaysia</span><span class="lang-en">Malaysian Sovereignty</span></a></li>
+          <li><a href="media.html" class="active"><span class="lang-bm">Galeri Risalah</span><span class="lang-en">Media Gallery</span></a></li>
+          <li><a href="about.html"><span class="lang-bm">Tentang Kami</span><span class="lang-en">About</span></a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-icon" aria-label="Tukar Bahasa">🌐 English</button>
+        <button id="theme-toggle" class="btn-icon" aria-label="Tukar Tema">🌙 Gelap</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-pill">
+          <span>🎨</span>
+          <span class="lang-bm">Bahan Kempen Resolusi Tinggi (1080 × 1350 px)</span>
+          <span class="lang-en" style="display: none;">High-Resolution Campaign Assets (1080 × 1350 px)</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="lang-bm">Galeri Risalah &amp; Poster <span>Kempen Boikot Teknologi</span></span>
+          <span class="lang-en" style="display: none;">Leaflets &amp; Posters Gallery: <span>Tech Boycott Campaign</span></span>
+        </h1>
+
+        <p class="hero-desc">
+          <span class="lang-bm">
+            Koleksi 15 risalah dan poster digital beresolusi tinggi (nisbah 4:5 sesuai untuk media sosial, WhatsApp, dan cetakan fizikal A4). Mengandungi 10 poster dalil syarak (Al-Qur'an &amp; Hadith sahih) serta 5 poster advokasi strategik dan kedaulatan digital.
+          </span>
+          <span class="lang-en" style="display: none;">
+            A collection of 15 high-resolution campaign leaflets and digital posters (4:5 aspect ratio optimized for Instagram, LinkedIn, WhatsApp, and A4 print). Features 10 theological grounding posters (Qur'an &amp; authentic Hadith) and 5 strategic advocacy and sovereignty infographics.
+          </span>
+        </p>
+
+        <!-- Category Filters -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">
+            <span class="lang-bm">Semua Bahan (15)</span>
+            <span class="lang-en" style="display: none;">All Posters (15)</span>
+          </button>
+          <button class="filter-btn" data-filter="islam">
+            <span class="lang-bm">Asas Islam &amp; Hadith (10)</span>
+            <span class="lang-en" style="display: none;">Islamic Foundations (10)</span>
+          </button>
+          <button class="filter-btn" data-filter="creative">
+            <span class="lang-bm">Advokasi Strategik &amp; Kedaulatan (5)</span>
+            <span class="lang-en" style="display: none;">Strategic Advocacy (5)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster Grid Section -->
+    <section class="container" style="padding-top: 3rem;">
+      <div class="poster-grid" id="poster-container">
+
+        <!-- 01: Quran 5:2 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_01_quran_5_2.png')">
+            <img src="media/posters/poster_01_quran_5_2.jpg" alt="Poster 01: Surah Al-Ma'idah 5:2" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Asas Syariah #01</span>
+            <h3 class="poster-title">Forbidding Complicity in Sin</h3>
+            <div class="poster-ref">Al-Qur'an • Surah Al-Ma'idah (5:2)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Larangan bersubahat dan bertolong-tolongan dalam dosa dan pencerobohan ketenteraan melalui langganan infrastruktur awan Google &amp; AWS.</span>
+              <span class="lang-en" style="display: none;">Divine prohibition against assisting in sin and military aggression through enterprise cloud subscriptions with Google &amp; AWS.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_01_quran_5_2.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_01_quran_5_2.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02: Bukhari 2444 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_02_hadith_bukhari_2444.png')">
+            <img src="media/posters/poster_02_hadith_bukhari_2444.jpg" alt="Poster 02: Sahih Bukhari 2444" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Hadith Sahih #02</span>
+            <h3 class="poster-title">Restraining Oppressors is Helping Them</h3>
+            <div class="poster-ref">Hadith Sharif • Sahih al-Bukhari (2444)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Menolong saudara yang zalim adalah dengan menghalang tangannya daripada terus menzalimi orang lain melalui boikot ekonomi berkesan.</span>
+              <span class="lang-en" style="display: none;">Helping an oppressor means preventing him from committing further tyranny by cutting commercial capital flow.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_02_hadith_bukhari_2444.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_02_hadith_bukhari_2444.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03: Muslim 2577 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_03_hadith_muslim_2577.png')">
+            <img src="media/posters/poster_03_hadith_muslim_2577.jpg" alt="Poster 03: Sahih Muslim 2577" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Hadith Qudsi #03</span>
+            <h3 class="poster-title">Oppression is Mutually Forbidden</h3>
+            <div class="poster-ref">Hadith Qudsi • Sahih Muslim (2577)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Pengharaman mutlak kezaliman oleh Allah Taala. Sistem perisian dan pangkalan data AI tidak boleh dibiarkan menjadi alat penindasan sistematik.</span>
+              <span class="lang-en" style="display: none;">Allah has forbidden oppression for Himself and made it unlawful among servants. Tech systems cannot serve as instruments of zulm.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_03_hadith_muslim_2577.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_03_hadith_muslim_2577.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04: Quran 11:113 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_04_quran_11_113.png')">
+            <img src="media/posters/poster_04_quran_11_113.jpg" alt="Poster 04: Surah Hud 11:113" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Asas Syariah #04</span>
+            <h3 class="poster-title">Do Not Incline Toward Oppressors</h3>
+            <div class="poster-ref">Al-Qur'an • Surah Hud (11:113)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Amaran ilahi terhadap kecenderungan dan kebergantungan (lock-in) kepada pihak yang menzalimi, yang boleh mengundang padah di akhirat.</span>
+              <span class="lang-en" style="display: none;">Divine warning against inclining or depending upon tyrants, which forfeits divine protection and risks severe reckoning.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_04_quran_11_113.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_04_quran_11_113.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05: Bukhari 2447 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_05_hadith_bukhari_2447.png')">
+            <img src="media/posters/poster_05_hadith_bukhari_2447.jpg" alt="Poster 05: Sahih Bukhari 2447" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Hadith Sahih #05</span>
+            <h3 class="poster-title">The Cry of the Oppressed</h3>
+            <div class="poster-ref">Hadith Sharif • Sahih al-Bukhari (2447)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Tiada hijab antara doa mangsa yang dizalimi dengan Allah. Amaran keras buat pemimpin teknologi yang berurusan dengan penindas.</span>
+              <span class="lang-en" style="display: none;">No barrier exists between the prayer of the oppressed and Allah. A stern spiritual warning for tech executives and investors.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_05_hadith_bukhari_2447.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_05_hadith_bukhari_2447.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06: Quran 4:75 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_06_quran_4_75.png')">
+            <img src="media/posters/poster_06_quran_4_75.jpg" alt="Poster 06: Surah An-Nisa 4:75" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Asas Syariah #06</span>
+            <h3 class="poster-title">Defending the Weak (Mustad'afin)</h3>
+            <div class="poster-ref">Al-Qur'an • Surah An-Nisa' (4:75)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Tuntutan membela kaum yang lemah dan tertindas. Perjuangan era moden merangkumi penolakan infrastruktur ketenteraan digital.</span>
+              <span class="lang-en" style="display: none;">The solemn duty to champion the oppressed. Modern defense requires dismantling the logistical and digital supply chain of warfare.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_06_quran_4_75.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_06_quran_4_75.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 07: Quran 4:135 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_07_quran_4_135.png')">
+            <img src="media/posters/poster_07_quran_4_135.jpg" alt="Poster 07: Surah An-Nisa 4:135" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Asas Syariah #07</span>
+            <h3 class="poster-title">Stand Firm for Justice</h3>
+            <div class="poster-ref">Al-Qur'an • Surah An-Nisa' (4:135)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Keadilan tanpa kompromi sekalipun melibatkan kos migrasi atau ketidakselesaan teknikal dalam meninggalkan ekosistem Big Tech.</span>
+              <span class="lang-en" style="display: none;">Uncompromising justice even against personal convenience. Overcoming migration friction is a moral imperative.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_07_quran_4_135.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_07_quran_4_135.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 08: Muslim 78 -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_08_hadith_muslim_78.png')">
+            <img src="media/posters/poster_08_hadith_muslim_78.jpg" alt="Poster 08: Sahih Muslim 78" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Hadith Sahih #08</span>
+            <h3 class="poster-title">Changing Wrong with Hand &amp; Code</h3>
+            <div class="poster-ref">Hadith Sharif • Sahih Muslim (78)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Mengubah kemungkaran dengan 'tangan'. Bagi jurutera dan arkitek sistem, tangan adalah baris kod, perolehan pelayan, dan konfigurasi migrasi.</span>
+              <span class="lang-en" style="display: none;">Changing evil with the hand: for software engineers, the hand is procurement authority, deploy scripts, and code repos.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_08_hadith_muslim_78.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_08_hadith_muslim_78.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 09: Quran 4:58 Amanah -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_09_quran_4_58_amanah.png')">
+            <img src="media/posters/poster_09_quran_4_58_amanah.jpg" alt="Poster 09: Surah An-Nisa 4:58" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Asas Syariah #09</span>
+            <h3 class="poster-title">Data as a Sacred Trust (Amanah)</h3>
+            <div class="poster-ref">Al-Qur'an • Surah An-Nisa' (4:58)</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Data rakyat dan organisasi adalah amanah suci. Menyerahkannya kepada firma tertakluk US CLOUD Act melanggar integriti amanah.</span>
+              <span class="lang-en" style="display: none;">Citizen data is a sacred Amanah. Hosting it under foreign jurisdiction subject to extraterritorial warrants violates this trust.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_09_quran_4_58_amanah.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_09_quran_4_58_amanah.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10: Fiqh Maxim Dar al-Mafasid -->
+        <div class="poster-card" data-category="islam">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_10_fiqh_dar_al_mafasid.png')">
+            <img src="media/posters/poster_10_fiqh_dar_al_mafasid.jpg" alt="Poster 10: Dar al-Mafasid" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-islam">Kaedah Fiqh #10</span>
+            <h3 class="poster-title">Warding Off Harm Precedes Profit</h3>
+            <div class="poster-ref">Qawa'id Fiqhiyyah • Kaedah Usul Fiqh Sepakat</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Menolak kemudaratan didahulukan daripada keuntungan komersial. Tiada diskaun atau kemudahan korporat yang menghalalkan pembunuhan.</span>
+              <span class="lang-en" style="display: none;">Repelling lethal harm unconditionally supersedes acquiring commercial advantages, turnkey integrations, or enterprise discounts.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_10_fiqh_dar_al_mafasid.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_10_fiqh_dar_al_mafasid.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11: Creative - Malaysia Sovereignty -->
+        <div class="poster-card" data-category="creative">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_11_creative_malaysia_sovereignty.png')">
+            <img src="media/posters/poster_11_creative_malaysia_sovereignty.jpg" alt="Poster 11: Merdekakan Awan Malaysia" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-creative">Kedaulatan Negara #11</span>
+            <h3 class="poster-title">MERDEKAKAN AWAN KITA!</h3>
+            <div class="poster-ref">Kedaulatan Digital &amp; Bahaya US CLOUD Act</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Perbandingan impak US CLOUD Act terhadap privasi Malaysia berbanding alternatif awan berdaulat tempatan (TM One, AIMS, OpenNebula).</span>
+              <span class="lang-en" style="display: none;">Analysis of extraterritorial risks posed by the US CLOUD Act versus sovereign Malaysian cloud infrastructure (TM One, AIMS).</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_11_creative_malaysia_sovereignty.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_11_creative_malaysia_sovereignty.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12: Creative - Europe Exit -->
+        <div class="poster-card" data-category="creative">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_12_creative_europe_exit.png')">
+            <img src="media/posters/poster_12_creative_europe_exit.jpg" alt="Poster 12: Europe is Ditching US Big Tech" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-creative">Laporan Antarabangsa #12</span>
+            <h3 class="poster-title">Europe is Ditching US Big Tech</h3>
+            <div class="poster-ref">Analisis Siasatan Majalah WIRED</div>
+            <p class="poster-desc">
+              <span class="lang-bm">4 inisiatif utama Eropah (Jerman migrasi 30k Linux, Perancis haramkan Office 365, Denmark sekat Chromebook, EDPS saman Microsoft).</span>
+              <span class="lang-en" style="display: none;">4 landmark European precedents ditching Big Tech for open-source: Germany 30k Linux, France Office 365 ban, Denmark Chromebook ban.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_12_creative_europe_exit.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_12_creative_europe_exit.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13: Creative - 6-Level Roadmap -->
+        <div class="poster-card" data-category="creative">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_13_creative_6_level_roadmap.png')">
+            <img src="media/posters/poster_13_creative_6_level_roadmap.jpg" alt="Poster 13: The 6-Level Tech Exit Roadmap" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-creative">Pelan Tindakan #13</span>
+            <h3 class="poster-title">The 6-Level Tech Exit Roadmap</h3>
+            <div class="poster-ref">Panduan Langkah Demi Langkah Jurutera &amp; CTO</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Pelan migrasi berperingkat dari Tahap 1 (DNS &amp; Carian) sehingga Tahap 6 (Sistem Operasi &amp; Perkakasan Bebas).</span>
+              <span class="lang-en" style="display: none;">Step-by-step practical ladder from Level 1 (DNS &amp; Search) up to Level 6 (Operating Systems &amp; Hardware Freedom).</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_13_creative_6_level_roadmap.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_13_creative_6_level_roadmap.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14: Creative - FOSS Matrix -->
+        <div class="poster-card" data-category="creative">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_14_creative_foss_matrix.png')">
+            <img src="media/posters/poster_14_creative_foss_matrix.jpg" alt="Poster 14: Big Tech vs FOSS Matrix" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-creative">Matriks Penggantian #14</span>
+            <h3 class="poster-title">Big Tech vs Ethical Open-Source</h3>
+            <div class="poster-ref">Jadual Rujukan Pantas CTO &amp; Pengurus IT</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Matriks penggantian langsung: Google Drive ➔ Nextcloud, Slack ➔ Matrix, AWS ➔ Proxmox, GA4 ➔ Plausible, GitHub ➔ Forgejo.</span>
+              <span class="lang-en" style="display: none;">Direct enterprise drop-in replacement matrix across storage, team chat, cloud compute, web analytics, email, and git.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_14_creative_foss_matrix.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_14_creative_foss_matrix.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15: Creative - Worker Resistance -->
+        <div class="poster-card" data-category="creative">
+          <div class="poster-thumb-wrap" onclick="openModal('media/posters/poster_15_creative_worker_resistance.png')">
+            <img src="media/posters/poster_15_creative_worker_resistance.jpg" alt="Poster 15: Ethics Above Profit" class="poster-thumb" loading="lazy">
+            <div class="poster-overlay"><button class="poster-zoom-btn">🔍 Buka Penuh / Zoom</button></div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-badge badge-creative">Solidariti Pekerja #15</span>
+            <h3 class="poster-title">Ethics Above Profit: Stand with Workers</h3>
+            <div class="poster-ref">Menghormati Keberanian 50+ Jurutera Google Dipecat</div>
+            <p class="poster-desc">
+              <span class="lang-bm">Kisah keberanian pekerja teknologi membantah Project Nimbus ($1.2B) dan seruan membina perisian yang membebaskan kemanusiaan.</span>
+              <span class="lang-en" style="display: none;">Honoring the courage of 50+ Google engineers fired for protesting Project Nimbus, and uniting behind ethical engineering.</span>
+            </p>
+            <div class="poster-downloads">
+              <a href="media/posters/poster_15_creative_worker_resistance.png" download class="btn-download btn-download-png">PNG (Hi-Res)</a>
+              <a href="media/posters/poster_15_creative_worker_resistance.jpg" download class="btn-download btn-download-jpg">JPEG</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="image-modal" class="image-modal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()" aria-label="Tutup / Close">&times;</button>
+      <img id="modal-img" src="" alt="Paparan Penuh Poster" class="modal-img">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer" style="margin-top: 4rem; padding-block: 3rem; background: var(--bg-surface); border-top: 1px solid var(--border-color);">
+    <div class="container footer-content" style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem;">
+      <div class="footer-brand">
+        <h3 class="footer-title">Amanah Digital Malaysia</h3>
+        <p style="color: var(--text-secondary); font-size: 0.875rem;">
+          Inisiatif sivik berasaskan fakta untuk memperkukuh kedaulatan digital negara melalui teknologi sumber terbuka dan piawaian etika global.
+        </p>
+      </div>
+      <div>
+        <h4 class="footer-title">Pautan Pantas</h4>
+        <ul class="footer-links">
+          <li><a href="evidence.html">Pangkalan Bukti</a></li>
+          <li><a href="companies.html">Syarikat Terlibat</a></li>
+          <li><a href="alternatives.html">Alternatif FOSS</a></li>
+          <li><a href="media.html">Galeri Risalah</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Format Muat Turun</h4>
+        <ul class="footer-links">
+          <li><span>PNG: 1080 × 1350 px</span></li>
+          <li><span>JPEG: Kualiti 95%</span></li>
+          <li><span>SVG: Vektor Boleh Ubah</span></li>
+          <li><span>Nisbah: 4:5 Vertikal</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom" style="margin-top: 2rem;">
+      Hak Cipta Terpelihara &copy; 2026 Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // Gallery Filtering
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+        document.querySelectorAll('.poster-card').forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox Modal
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-img');
+
+    function openModal(src) {
+      modalImg.src = src;
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
+</body>
+</html>

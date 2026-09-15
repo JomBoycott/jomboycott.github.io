@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b14" />
+      <stop offset="50%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#450a0a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1f0707" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#022c22" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg11)" />
+
+  <!-- Top Header -->
+  <rect x="70" y="55" width="940" height="42" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+  <text x="95" y="82" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fbbf24" letter-spacing="2">CAMPAIGN LEAFLET #11</text>
+  <text x="985" y="82" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="end" letter-spacing="1">NATIONAL SOVEREIGNTY • AWAN MALAYSIA</text>
+
+  <!-- Title Section -->
+  <text x="70" y="150" font-family="IBM Plex Sans, sans-serif" font-size="44" font-weight="800" fill="#f8fafc">MERDEKAKAN AWAN KITA!</text>
+  <text x="70" y="190" font-family="IBM Plex Sans, sans-serif" font-size="21" font-weight="600" fill="#38bdf8">Malaysian Digital Sovereignty: Escaping the US CLOUD Act</text>
+
+  <!-- Subtitle Summary Box -->
+  <rect x="70" y="225" width="940" height="90" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1.5" />
+  <text x="95" y="260" font-family="IBM Plex Sans, sans-serif" font-size="17" fill="#e2e8f0">Hosting Malaysian government and corporate records with American Big Tech (AWS, GCP, Azure)</text>
+  <text x="95" y="290" font-family="IBM Plex Sans, sans-serif" font-size="17" font-weight="700" fill="#f43f5e">exposes sovereign Malaysian data to foreign extraterritorial subpoenas without local court warrants.</text>
+
+  <!-- Side-by-Side Comparison: US CLOUD Act vs Sovereign Malaysia -->
+  <!-- LEFT: The Risk (US CLOUD Act) -->
+  <rect x="70" y="340" width="455" height="440" rx="14" fill="url(#redGrad)" stroke="#ef4444" stroke-width="1.5" />
+  <rect x="70" y="340" width="455" height="42" rx="14" fill="#7f1d1d" />
+  <text x="95" y="367" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#fee2e2" letter-spacing="1">THE RISK: US CLOUD ACT (2018)</text>
+
+  <circle cx="95" cy="415" r="4" fill="#f87171" />
+  <text x="115" y="420" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#fecaca">Extraterritorial Jurisdiction:</text>
+  <text x="115" y="445" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">US law compels American tech firms to</text>
+  <text x="115" y="468" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">surrender data stored anywhere globally.</text>
+
+  <circle cx="95" cy="510" r="4" fill="#f87171" />
+  <text x="115" y="515" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#fecaca">Bypasses Malaysian Courts:</text>
+  <text x="115" y="540" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">No Malaysian judicial warrant or notice</text>
+  <text x="115" y="563" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">is required before data is seized.</text>
+
+  <circle cx="95" cy="605" r="4" fill="#f87171" />
+  <text x="115" y="610" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#fecaca">Strategic Hostage Risk:</text>
+  <text x="115" y="635" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Sanctions or unilateral policy changes</text>
+  <text x="115" y="658" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">can lock Malaysia out of its own systems.</text>
+
+  <circle cx="95" cy="700" r="4" fill="#f87171" />
+  <text x="115" y="705" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#fecaca">Breaches PDPA 2010 Spirit:</text>
+  <text x="115" y="730" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Transfers sensitive citizen data abroad.</text>
+
+  <!-- RIGHT: The Sovereign Alternative -->
+  <rect x="555" y="340" width="455" height="440" rx="14" fill="url(#greenGrad)" stroke="#10b981" stroke-width="1.5" />
+  <rect x="555" y="340" width="455" height="42" rx="14" fill="#065f46" />
+  <text x="580" y="367" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#d1fae5" letter-spacing="1">SOVEREIGN MALAYSIAN CLOUD</text>
+
+  <circle cx="580" cy="415" r="4" fill="#34d399" />
+  <text x="600" y="420" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#a7f3d0">100% On-Soil Data Residency:</text>
+  <text x="600" y="445" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Hosted in Malaysian data centres</text>
+  <text x="600" y="468" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">(TM One, AIMS, MyKRIS, Extreme BB).</text>
+
+  <circle cx="580" cy="510" r="4" fill="#34d399" />
+  <text x="600" y="515" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#a7f3d0">Subject Exclusively to Local Law:</text>
+  <text x="600" y="540" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Only Malaysian courts possess subpoena</text>
+  <text x="600" y="563" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">power under PDPA 2010 regulations.</text>
+
+  <circle cx="580" cy="605" r="4" fill="#34d399" />
+  <text x="600" y="610" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#a7f3d0">Open Infrastructure (FOSS):</text>
+  <text x="600" y="635" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Built on OpenNebula, Proxmox VE, Ceph,</text>
+  <text x="600" y="658" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">and Debian Linux without licensing ransom.</text>
+
+  <circle cx="580" cy="700" r="4" fill="#34d399" />
+  <text x="600" y="705" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#a7f3d0">Stimulates Domestic Economy:</text>
+  <text x="600" y="730" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Retains billions of ringgit within Malaysia.</text>
+
+  <!-- Strategic Roadmap for Malaysia Box -->
+  <rect x="70" y="805" width="940" height="340" rx="16" fill="#0c1a30" stroke="#0284c7" stroke-width="1.8" />
+  <rect x="70" y="805" width="940" height="42" rx="16" fill="#0369a1" fill-opacity="0.6" />
+  <text x="95" y="832" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#ffffff" letter-spacing="1.5">3-POINT SOVEREIGNTY BLUEPRINT FOR MALAYSIAN ENTERPRISES</text>
+
+  <text x="95" y="885" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="800" fill="#fbbf24">1. DATA CLASSIFICATION &amp; AUDIT</text>
+  <text x="95" y="912" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">Audit all cloud repositories. Forbid hosting Level 3 (Confidential) and Level 4 (Top Secret)</text>
+  <text x="95" y="935" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">government or banking data on AWS, Azure, or Google Cloud.</text>
+
+  <text x="95" y="980" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="800" fill="#fbbf24">2. SOVEREIGN PROCUREMENT MANDATE</text>
+  <text x="95" y="1007" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">Require GLICs (Khazanah, KWSP, PNB) and public ministries to prioritize Tier-3/4 Malaysian data centres</text>
+  <text x="95" y="1030" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">powered by open-source virtualization stacks.</text>
+
+  <text x="95" y="1075" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="800" fill="#fbbf24">3. COMMUNITY ENCRYPTED ARCHITECTURE</text>
+  <text x="95" y="1102" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">Implement zero-knowledge encryption where master keys are held exclusively within Malaysia,</text>
+  <text x="95" y="1125" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#cbd5e1">rendering foreign subpoena demands mathematically impossible to fulfill.</text>
+
+  <!-- Footer -->
+  <line x1="70" y1="1170" x2="1010" y2="1170" stroke="#334155" stroke-width="1" />
+  <text x="70" y="1210" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="800" fill="#f8fafc" letter-spacing="1">MALAYSIA OPEN-SOURCE &amp; TECH BOYCOTT COALITION</text>
+  <text x="70" y="1238" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#94a3b8">Digital Sovereignty • Ethical Computing • Islamic Accountability</text>
+  
+  <rect x="770" y="1190" width="240" height="42" rx="8" fill="url(#goldGrad)" />
+  <text x="890" y="1217" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle" letter-spacing="1">DOWNLOAD &amp; SHARE</text>
+  
+  <text x="70" y="1290" font-family="IBM Plex Mono, monospace" font-size="13" fill="#64748b">http://localhost:9191 • campaign/posters/poster_11_creative_malaysia_sovereignty.png</text>
+</svg>

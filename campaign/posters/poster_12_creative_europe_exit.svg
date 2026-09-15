@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a" />
+      <stop offset="50%" stop-color="#0f1f3d" />
+      <stop offset="100%" stop-color="#061b2e" />
+    </linearGradient>
+    <linearGradient id="euroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg12)" />
+
+  <!-- Top Header -->
+  <rect x="70" y="55" width="940" height="42" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+  <text x="95" y="82" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#38bdf8" letter-spacing="2">CAMPAIGN LEAFLET #12</text>
+  <text x="985" y="82" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="end" letter-spacing="1">GLOBAL RESEARCH • WIRED REPORT ANALYSIS</text>
+
+  <!-- Title Section -->
+  <text x="70" y="145" font-family="IBM Plex Sans, sans-serif" font-size="40" font-weight="800" fill="#f8fafc">EUROPE IS DITCHING US BIG TECH</text>
+  <text x="70" y="185" font-family="IBM Plex Sans, sans-serif" font-size="21" font-weight="600" fill="#f59e0b">"Why Are We Still Paying Monopolies That Arm Oppression?"</text>
+
+  <!-- Wired Quote Box -->
+  <rect x="70" y="220" width="940" height="110" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="95" y="255" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#fbbf24" letter-spacing="1.5">WIRED INVESTIGATION HEADLINE</text>
+  <text x="95" y="285" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600" fill="#f8fafc">"All the Ways Europe Is Ditching American Technology"</text>
+  <text x="95" y="312" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#94a3b8">— WIRED Magazine • European states are abandoning Microsoft, Google, &amp; AWS for sovereign FOSS.</text>
+
+  <!-- 4 Milestone Cards (2x2 Grid) -->
+  <!-- Card 1: Germany -->
+  <rect x="70" y="355" width="455" height="230" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+  <rect x="70" y="355" width="455" height="38" rx="14" fill="#1e3a8a" fill-opacity="0.7" />
+  <text x="90" y="380" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#93c5fd" letter-spacing="1">GERMANY (SCHLESWIG-HOLSTEIN)</text>
+  <text x="90" y="420" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">30,000 PCs Migrated to Linux</text>
+  <text x="90" y="450" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">The German state government formally dumped</text>
+  <text x="90" y="475" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Microsoft Windows &amp; Office for Linux,</text>
+  <text x="90" y="500" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">LibreOffice, Nextcloud, and Matrix open stack.</text>
+  <text x="90" y="545" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#34d399">✓ 100% Free of US Licensing Fees</text>
+
+  <!-- Card 2: France -->
+  <rect x="555" y="355" width="455" height="230" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+  <rect x="555" y="355" width="455" height="38" rx="14" fill="#1e3a8a" fill-opacity="0.7" />
+  <text x="575" y="380" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#93c5fd" letter-spacing="1">FRANCE (EDUCATION &amp; MINISTRIES)</text>
+  <text x="575" y="420" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">Banned Office 365 in Schools</text>
+  <text x="575" y="450" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">French Ministry of Education outlawed MS 365</text>
+  <text x="575" y="475" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">and Google Workspace across all schools. Built</text>
+  <text x="575" y="500" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Tchap (sovereign Matrix chat) for 350k civil servants.</text>
+  <text x="575" y="545" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#34d399">✓ Sovereign National Chat Deployed</text>
+
+  <!-- Card 3: Denmark -->
+  <rect x="70" y="605" width="455" height="230" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+  <rect x="70" y="605" width="455" height="38" rx="14" fill="#1e3a8a" fill-opacity="0.7" />
+  <text x="90" y="630" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#93c5fd" letter-spacing="1">DENMARK (DATATILSYNET RULING)</text>
+  <text x="90" y="670" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">Google Chromebook Ban</text>
+  <text x="90" y="700" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Danish Data Protection Agency banned Google</text>
+  <text x="90" y="725" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">Chromebooks and Workspace in municipalities</text>
+  <text x="90" y="750" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">due to illegal telemetry and data transfers to US.</text>
+  <text x="90" y="795" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#34d399">✓ Child Privacy Protected from Ad Tech</text>
+
+  <!-- Card 4: European Commission -->
+  <rect x="555" y="605" width="455" height="230" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+  <rect x="555" y="605" width="455" height="38" rx="14" fill="#1e3a8a" fill-opacity="0.7" />
+  <text x="575" y="630" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#93c5fd" letter-spacing="1">EUROPEAN COMMISSION (EDPS)</text>
+  <text x="575" y="670" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">Microsoft 365 Violates GDPR</text>
+  <text x="575" y="700" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">European Data Protection Supervisor ruled that</text>
+  <text x="575" y="725" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">EU Commission's use of Microsoft 365 broke</text>
+  <text x="575" y="750" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#cbd5e1">privacy laws, ordering strict remedial action.</text>
+  <text x="575" y="795" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#34d399">✓ Legally Mandated Cloud Divestment</text>
+
+  <!-- The Strategic Conclusion Box -->
+  <rect x="70" y="855" width="940" height="290" rx="16" fill="#082f49" fill-opacity="0.4" stroke="#0284c7" stroke-width="2" />
+  <rect x="70" y="855" width="940" height="42" rx="16" fill="#0369a1" fill-opacity="0.6" />
+  <text x="95" y="882" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#ffffff" letter-spacing="1.5">THE LESSON FOR MALAYSIA &amp; THE MUSLIM WORLD</text>
+
+  <text x="95" y="930" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="700" fill="#38bdf8">If Europe exits Big Tech for privacy alone,</text>
+  <text x="95" y="960" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="800" fill="#f43f5e">we have 10x the moral and strategic imperative to divest.</text>
+
+  <circle cx="105" cy="1005" r="4" fill="#38bdf8" />
+  <text x="125" y="1010" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">European states are protecting civil data from commercial surveillance and antitrust abuses.</text>
+
+  <circle cx="105" cy="1040" r="4" fill="#38bdf8" />
+  <text x="125" y="1045" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">Our money is directly co-funding automated AI targeting systems (Project Nimbus) killing our people.</text>
+
+  <circle cx="105" cy="1075" r="4" fill="#38bdf8" />
+  <text x="125" y="1080" font-family="IBM Plex Sans, sans-serif" font-size="16" fill="#e2e8f0">Proven European FOSS stacks (Nextcloud, Matrix, LibreOffice, Linux) are fully mature and ready.</text>
+
+  <text x="95" y="1122" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="700" fill="#34d399">➔ Take action: Begin your organization's European-style FOSS migration today.</text>
+
+  <!-- Footer -->
+  <line x1="70" y1="1170" x2="1010" y2="1170" stroke="#334155" stroke-width="1" />
+  <text x="70" y="1210" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="800" fill="#f8fafc" letter-spacing="1">MALAYSIA OPEN-SOURCE &amp; TECH BOYCOTT COALITION</text>
+  <text x="70" y="1238" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#94a3b8">Digital Sovereignty • Ethical Computing • Islamic Accountability</text>
+  
+  <rect x="770" y="1190" width="240" height="42" rx="8" fill="url(#euroGrad)" />
+  <text x="890" y="1217" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">DOWNLOAD &amp; SHARE</text>
+  
+  <text x="70" y="1290" font-family="IBM Plex Mono, monospace" font-size="13" fill="#64748b">http://localhost:9191 • campaign/posters/poster_12_creative_europe_exit.png</text>
+</svg>

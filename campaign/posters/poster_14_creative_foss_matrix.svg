@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#041d1a" />
+    </linearGradient>
+    <linearGradient id="emerald14" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg14)" />
+
+  <!-- Top Header -->
+  <rect x="70" y="55" width="940" height="42" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+  <text x="95" y="82" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#10b981" letter-spacing="2">CAMPAIGN LEAFLET #14</text>
+  <text x="985" y="82" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="end" letter-spacing="1">REPLACEMENT MATRIX • FOSS ALTERNATIVES</text>
+
+  <!-- Title Section -->
+  <text x="70" y="145" font-family="IBM Plex Sans, sans-serif" font-size="40" font-weight="800" fill="#f8fafc">BIG TECH vs ETHICAL OPEN-SOURCE</text>
+  <text x="70" y="185" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">Direct Enterprise Replacement Cheat Sheet • 100% Sovereign &amp; Complicity-Free</text>
+
+  <!-- Table Header Bar -->
+  <rect x="70" y="225" width="940" height="40" rx="8" fill="#1e293b" />
+  <text x="95" y="250" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#94a3b8" letter-spacing="1">SERVICE CATEGORY</text>
+  <text x="350" y="250" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#f87171" letter-spacing="1">COMPLICIT BIG TECH</text>
+  <text x="650" y="250" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="800" fill="#34d399" letter-spacing="1">SOVEREIGN OPEN-SOURCE ALTERNATIVE</text>
+
+  <!-- Rows -->
+  
+  <!-- Row -->
+  <rect x="70" y="280" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="306" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">CLOUD STORAGE &amp; SYNC</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="316" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="341" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">Google Drive / OneDrive</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,336 L 492,336 M 484,328 L 492,336 L 484,344" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="316" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="341" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Nextcloud / Seafile</text>
+  
+  <text x="95" y="378" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Sovereign file sync, E2E encryption, full self-hosting</text>
+
+  <!-- Row -->
+  <rect x="70" y="405" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="431" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">TEAM COMMUNICATION</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="441" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="466" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">Slack / Microsoft Teams</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,461 L 492,461 M 484,453 L 492,461 L 484,469" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="441" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="466" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Matrix / Element / Mattermost</text>
+  
+  <text x="95" y="503" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Federated protocols, decentralized servers, no spying</text>
+
+  <!-- Row -->
+  <rect x="70" y="530" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="556" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">COMPUTE &amp; CLOUD VMS</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="566" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="591" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">AWS / GCP / MS Azure</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,586 L 492,586 M 484,578 L 492,586 L 484,594" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="566" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="591" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Proxmox / OpenNebula / Hetzner</text>
+  
+  <text x="95" y="628" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Bare-metal performance, 60% lower cost, zero CLOUD Act</text>
+
+  <!-- Row -->
+  <rect x="70" y="655" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="681" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">WEB &amp; APP ANALYTICS</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="691" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="716" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">Google Analytics 4</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,711 L 492,711 M 484,703 L 492,711 L 484,719" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="691" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="716" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Plausible / Umami Analytics</text>
+  
+  <text x="95" y="753" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Cookieless, GDPR-compliant, privacy-first analytics</text>
+
+  <!-- Row -->
+  <rect x="70" y="780" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="806" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">EMAIL &amp; PRODUCTIVITY</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="816" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="841" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">Google Workspace / M365</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,836 L 492,836 M 484,828 L 492,836 L 484,844" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="816" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="841" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Proton Mail + CryptPad</text>
+  
+  <text x="95" y="878" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Zero-knowledge mailbox, real-time encrypted docs</text>
+
+  <!-- Row -->
+  <rect x="70" y="905" width="940" height="112" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  
+  <!-- Category -->
+  <text x="95" y="931" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="800" fill="#38bdf8" letter-spacing="1.5">CODE REPOSITORY &amp; GIT</text>
+  
+  <!-- Big Tech (Red) -->
+  <rect x="95" y="941" width="345" height="40" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.2" />
+  <text x="110" y="966" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="700" fill="#fca5a5">GitHub (Microsoft)</text>
+  
+  <!-- Sleek SVG Vector Arrow -->
+  <path d="M 458,961 L 492,961 M 484,953 L 492,961 L 484,969" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- FOSS (Green) -->
+  <rect x="510" y="941" width="480" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+  <text x="525" y="966" font-family="IBM Plex Sans, sans-serif" font-size="15" font-weight="800" fill="#86efac">Codeberg / Self-Hosted Forgejo</text>
+  
+  <text x="95" y="1003" font-family="IBM Plex Sans, sans-serif" font-size="13" fill="#94a3b8">Community-owned non-profit, zero telemetry, full control</text>
+
+
+  <!-- Summary Callout -->
+  <rect x="70" y="1040" width="940" height="95" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1.8" />
+  <text x="95" y="1075" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="800" fill="#34d399" letter-spacing="1">100% PRIVACY • 0% GENOCIDE COMPLICITY • TOTAL DATA FREEDOM</text>
+  <text x="95" y="1108" font-family="IBM Plex Sans, sans-serif" font-size="17" font-weight="600" fill="#ffffff">Every alternative above is production-tested, scalable to millions of users, and free of foreign surveillance.</text>
+
+  <!-- Footer -->
+  <line x1="70" y1="1170" x2="1010" y2="1170" stroke="#334155" stroke-width="1" />
+  <text x="70" y="1210" font-family="IBM Plex Sans, sans-serif" font-size="16" font-weight="800" fill="#f8fafc" letter-spacing="1">MALAYSIA OPEN-SOURCE &amp; TECH BOYCOTT COALITION</text>
+  <text x="70" y="1238" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#94a3b8">Digital Sovereignty • Ethical Computing • Islamic Accountability</text>
+  
+  <rect x="770" y="1190" width="240" height="42" rx="8" fill="url(#emerald14)" />
+  <text x="890" y="1217" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">DOWNLOAD &amp; SHARE</text>
+  
+  <text x="70" y="1290" font-family="IBM Plex Mono, monospace" font-size="13" fill="#64748b">http://localhost:9191 • campaign/posters/poster_14_creative_foss_matrix.png</text>
+</svg>
