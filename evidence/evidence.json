@@ -122,16 +122,16 @@
   {
     "id": "EVID-009",
     "company": "Microsoft",
-    "topic": "2025 Surveillance Access Restrictions",
-    "claim": "In September 2025, Microsoft terminated the Israeli military's access to specific technologies that had been identified as being used for mass surveillance in Gaza and the West Bank.",
+    "topic": "Unit 8200 Surveillance, Lavender AI & 2025 Access Termination",
+    "claim": "The Guardian and +972 Magazine revealed Israeli military intelligence (Unit 8200) stored mass surveillance data and powered AI targeting systems (Lavender) on Microsoft Azure, prompting Microsoft in September 2025 to terminate military access to specific surveillance tools.",
     "status": "VERIFIED",
     "source_tier": "Tier 1",
-    "source_type": "Human Rights Monitoring / Corporate Compliance Records",
-    "source_title": "Business & Human Rights Resource Centre: Microsoft cuts off Israeli military access to surveillance tools",
+    "source_type": "Investigative Journalism / Corporate Compliance Records",
+    "source_title": "The Guardian & Business & Human Rights Resource Centre: Microsoft cuts off Israeli military access to surveillance tools",
     "source_url": "https://www.business-humanrights.org/en/latest-news/microsoft-surveillance-israel-military-cut-off/",
     "publication_date": "2025-09-20",
-    "quote_or_evidence": "Microsoft took action to terminate access to specific cloud-based surveillance capabilities for Israeli military users following internal compliance determinations regarding human rights policies.",
-    "counterclaim_or_nuance": "This demonstrates Microsoft's willingness to enforce acceptable use boundaries, though baseline enterprise licensing remains active for general governmental functions.",
+    "quote_or_evidence": "Investigations revealed Unit 8200 utilized segregated areas in Microsoft Azure to process mass phone interceptions and feed AI targeting systems like Lavender (37,000 targets). Microsoft confirmed an internal review and disabled access to specific Azure surveillance capabilities for an Israeli military unit under its Acceptable Use Policy.",
+    "counterclaim_or_nuance": "This demonstrates Microsoft's enforcement of acceptable use boundaries against mass surveillance, though baseline enterprise software licensing remains active for general administrative functions.",
     "last_verified": "2026-09-15"
   },
   {

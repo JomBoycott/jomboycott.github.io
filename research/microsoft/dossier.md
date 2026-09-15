@@ -24,9 +24,10 @@ Microsoft has long maintained deep research and development infrastructure in Is
 * The facility has contributed directly to core Microsoft cybersecurity products, cloud security architecture, and AI development.
 * The center maintains close recruitment relationships with alumni of Unit 8200 (Israel's elite signals intelligence and cyberwarfare military unit).
 
-### 2.2 Enterprise & Cloud Procurement
+### 2.2 Enterprise, Cloud Procurement & The Lavender AI System
 * **Ministry of Defense Contracts:** Microsoft has long provided enterprise IT software, Windows OS licensing, Microsoft 365, and Azure cloud infrastructure to the Israeli Ministry of Defense and armed forces.
-* **Azure AI & Cognitive Services:** Investigative reports in 2024 revealed that Israeli military units had evaluated or integrated Azure OpenAI and cloud compute resources for data collation and target intelligence pipelines.
+* **Unit 8200 & Azure Cloud Pipelines:** Landmark investigative reporting by *+972 Magazine*, *Local Call*, and *The Guardian* (April 2024 – August 2025) revealed that Israel's signals intelligence unit (Unit 8200) utilized a customized, segregated cloud environment within **Microsoft Azure** to store, query, and process vast quantities of intercepted phone calls, communication metadata, and civilian tracking datasets.
+* **Lavender AI & The Gospel Integration:** These cloud compute and storage pipelines fed directly into AI-driven target generation systems—most notably **Lavender**, an algorithmic database that identified approximately **37,000 Palestinians** as suspected targets for potential assassination in Gaza, often with as little as 20 seconds of human oversight. The military also leveraged Azure OpenAI cognitive services for automated translation, transcription, and target scoring.
 
 ---
 
@@ -48,8 +49,9 @@ Microsoft has long maintained deep research and development infrastructure in Is
 Unlike its competitors, Microsoft has demonstrated tangible policy friction and formal interventions regarding military usage:
 
 ### 4.1 Termination of Military Access to Surveillance Tech (September 2025)
-* In September 2025, authoritative reporting by international human rights monitors and tech journalism revealed that Microsoft **terminated the Israeli military's access to specific technologies and Azure services** that had been identified as facilitating mass surveillance in the Gaza Strip and the West Bank.
-* Microsoft asserted its contractual right to enforce Acceptable Use Policies (AUP) when technology is leveraged for unconstrained facial surveillance or automated targeting that risks civilian lives.
+* Following the explosive August 2025 *Guardian* and *+972 Magazine* investigations exposing Unit 8200's use of Azure to store intercepted phone calls and power the **Lavender AI targeting system**, Microsoft launched an emergency internal compliance review.
+* In September 2025, Microsoft publicly announced that it had **"ceased and disabled" specific Azure services and tools** provided to a unit within the Israeli Ministry of Defense (IMOD), confirming that the technology had been utilized for mass surveillance prohibited under Microsoft's Acceptable Use Policies.
+* Microsoft asserted its contractual prerogative to enforce human-rights redlines against automated targeting systems that endanger civilian populations.
 
 ### 4.2 Formal Independent Reviews
 * Following employee petitions and external human rights scrutiny, Microsoft's board and compliance committee commissioned formal, third-party human rights impact assessments into how Azure enterprise offerings were being utilized by foreign defense forces.
