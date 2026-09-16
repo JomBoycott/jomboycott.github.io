@@ -192,6 +192,16 @@ Siasatan mendalam kempen mendedahkan bagaimana Google, Microsoft, dan AWS menawa
 * **Vakum Perundangan APDP:** Seksyen 3(1) Akta Perlindungan Data Peribadi 2010 mengecualikan kerajaan, menyebabkan data 5.3 juta anak sekolah awam tiada perlindungan statutori tempatan tetapi terdedah kepada Akta CLOUD AS.
 * *(Baca dosier penuh di `research/malaysia/education_lockin_pipeline.md` dan portal kempen di `website/education.html`).*
 
+### 9.6 Cadangan Strategik Kebangsaan: Konsortium Awan Berdaulat Terbuka Malaysia (OpenInfra & GLC: TM, TNB, PETRONAS)
+Bagi mengatasi perangkap Akta CLOUD AS dan lonjakan kos pembaharuan lesen VMware/Broadcom (300%–1,000%), kempen ini mengemukakan kertas cadangan dasar kepada kerajaan bagi menubuhkan **Konsortium Awan Berdaulat Terbuka Malaysia (Malaysian Sovereign Open Infrastructure Consortium - MSOIC)**:
+* **Pemanfaatan Komuniti Global OpenInfra (`openinfra.org`):** Melaksanakan himpunan perisian sumber terbuka yang menjana lebih 45 juta teras CPU di seluruh dunia—iaitu **OpenStack** (pengganti IaaS penuh AWS/GCP/Azure dan VMware), **StarlingX** (awan pinggir / *edge cloud* untuk pencawang elektrik dan 5G), **Kata Containers** (pengasingan kontena perkakasan *microVM* tahap keselamatan pertahanan), dan sistem storan teragih **Ceph**.
+* **Sinergi Tiga Gergasi GLC Nasional:**
+  1. **Telekom Malaysia (TM):** Menyediakan tulang belakang gentian optik nasional, kabel dasar laut, dan pusat data bertaraf Tier III/IV (KVDC & CJDC).
+  2. **Tenaga Nasional Berhad (TNB):** Membekalkan kuasa elektrik hijau (solar dan hidro), rangkaian gentian optik OPGW Allo Technology di sepanjang koridor grid voltan tinggi ke seluruh pelusuk negara, serta 80,000 pencawang elektrik sebagai nod *edge cloud*.
+  3. **PETRONAS:** Menyumbang keupayaan pelaburan modal jangka panjang, tadbir urus projek mega, serta membawa beban kerja industri superkomputer (HPC dan AI seismik minyak/gas).
+* **Penyatuan Dana & Akademi Bakat Tempatan:** Mengalihkan 15%–20% daripada anggaran RM2-4 bilion perbelanjaan yuran lesen perisian tahunan yang mengalir ke luar negara ke dalam Tabung Infrastruktur Awan Terbuka Kebangsaan (dalam mata wang Ringgit Malaysia), disokong oleh penubuhan **Akademi Kejuruteraan Awan Terbuka Kebangsaan** untuk melatih ribuan jurutera tempatan menjadi pembina dan penyumbang kod sumber terbuka antarabangsa.
+* *(Baca dosier komprehensif di [`research/malaysia/openinfra_sovereign_cloud_proposal.md`](research/malaysia/openinfra_sovereign_cloud_proposal.md)).*
+
 ---
 
 <a name="seksyen-10-alternatif-sumber-terbuka"></a>
@@ -203,13 +213,13 @@ Kempen ini membentangkan direktori 17 kategori perisian sumber terbuka yang sedi
 | :--- | :--- | :--- | :--- |
 | **Carian** | Google Search | **SearXNG / DuckDuckGo** | Privasi carian tanpa penjejakan iklan |
 | **E-mel** | Gmail / Outlook | **Mailcow / Thunderbird** | Pelayan e-mel premis, kos tetap tempatan |
-| **Storan Awan** | Google Drive / OneDrive | **Nextcloud Hub / MinIO** | Data kekal dalam sempadan Malaysia, E2EE |
+| **Storan Awan** | Google Drive / OneDrive | **Nextcloud Hub / MinIO / Ceph** | Data kekal dalam sempadan Malaysia, E2EE |
 | **Produktiviti** | MS Office / Google Docs | **LibreOffice / OnlyOffice** | Format terbuka ODF, percuma tanpa yuran lesen |
 | **Sidang Video** | Zoom / Google Meet | **Jitsi Meet** | Dihoskan di pelayan tempatan, selamat |
 | **Pemesejan** | WhatsApp | **Signal / Matrix (Element)** | Enkripsi standard emas, protokol terbuka |
 | **Media Sosial** | Facebook / X / IG | **Mastodon / PeerTube** | Sistem bersekutu (*Fediverse*) tanpa monopoli |
 | **Sistem Operasi** | Windows 11 / macOS | **Debian / Ubuntu LTS** | Jimat bajet sekolah & universiti, bebas intipan |
-| **Awan & Maya** | AWS EC2 / Azure VMs | **OpenStack / Proxmox VE** | Asas MyGovCloud berdaulat sebenar |
+| **Awan & Maya** | AWS, GCP, Azure, VMware (VCF) | **OpenInfra (OpenStack, StarlingX, Kata) & Proxmox VE** | Asas MyGovCloud berdaulat, hapus kenaikan lesen Broadcom |
 | **Kecerdasan Buatan** | ChatGPT / Gemini API | **Ollama / LocalAI / vLLM** | Data sulit pesakit, bank, dan guaman tidak bocor |
 
 ---
@@ -256,6 +266,8 @@ Hasil ujian adversarial ini memastikan:
 9. Sahih al-Bukhari, Hadis No. 2444 (*Kitab al-Mazalim*).
 10. Kementerian Digital Malaysia, *Dasar Pengkomputeran Awan Negara (NCCP)*, Ogos 2025.
 11. Wired Magazine, *All the Ways Europe Is Ditching American Technology* (Matt Burgess, Jun 2026).
+12. OpenInfra Foundation, *Open Infrastructure Blueprint & Ecosystem Projects (OpenStack, StarlingX, Kata Containers)* (https://openinfra.org, 2026).
+13. Kempen Akauntabiliti Teknologi Sumber Terbuka Malaysia, *Penyelidikan OpenInfra & Cadangan Konsortium Awan Berdaulat Terbuka Malaysia (GLC: TNB, PETRONAS, TM)* (`research/malaysia/openinfra_sovereign_cloud_proposal.md`, 2026).
 
 ---
 

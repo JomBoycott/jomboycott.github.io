@@ -121,18 +121,18 @@
   },
   {
     "id": "ALT-009",
-    "project": "OpenStack & Proxmox VE",
+    "project": "OpenInfra (OpenStack, StarlingX, Kata) & Proxmox VE",
     "category": "Cloud Infrastructure",
-    "replaces": ["AWS EC2", "Google Compute Engine", "Microsoft Azure VMs", "VMware vSphere"],
+    "replaces": ["AWS EC2/VPC", "Google Compute Engine", "Microsoft Azure VMs", "VMware vSphere / VCF", "AWS Outposts"],
     "license": "Apache-2.0 / AGPL-3.0",
-    "website": "https://www.proxmox.com",
-    "github": "https://git.proxmox.com",
+    "website": "https://openinfra.org",
+    "github": "https://github.com/openstack",
     "self_hosting_requirements": "Bare metal x86 enterprise servers, virtualization support (VT-x/AMD-V)",
     "difficulty": "Advanced",
-    "cost_model": "Free Community; low-cost subscription for enterprise repositories",
+    "cost_model": "100% Free Open Source (OpenInfra Foundation backed); RM0 license fees",
     "privacy_rating": "Complete physical and logical sovereignty inside domestic datacenter racks",
     "maturity": "Battle-Tested",
-    "malaysian_suitability_summary": "Asas kukuh untuk membina MyGovCloud berdaulat sebenar tanpa menyerahkan kunci penyulitan kepada hyperscaler AS."
+    "malaysian_suitability_summary": "Asas teras bagi Konsortium Awan Berdaulat GLC (TM, TNB, PETRONAS) untuk membina enjin data nasional bebas daripada Akta CLOUD AS dan kenaikan harga lesen Broadcom/VMware."
   },
   {
     "id": "ALT-010",

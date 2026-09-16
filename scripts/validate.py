@@ -134,6 +134,7 @@ def validate_required_files():
         "research/microsoft/dossier.md",
         "research/meta/dossier.md",
         "research/malaysia/dossier.md",
+        "research/malaysia/openinfra_sovereign_cloud_proposal.md",
         "research/israel-palestine/tech_context.md",
         "research/global-precedents/europe_ditching_big_tech.md",
         "evidence/schema.json",

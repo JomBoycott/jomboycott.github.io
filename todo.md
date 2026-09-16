@@ -487,7 +487,16 @@ Investigate:
 * open-source software
 * Linux
 * Kubernetes
-* OpenStack
+* OpenInfra Foundation (openinfra.org) ecosystem:
+  * OpenStack (Nova, Ironic, Neutron, Cinder, Swift, Keystone) replacing AWS/GCP/Azure and VMware vSphere/VCF
+  * StarlingX (distributed edge cloud for TNB smart grid, TM 5G O-RAN, PETRONAS offshore)
+  * Kata Containers (hardware-isolated microVM Zero-Trust security replacing AWS Firecracker & Google gVisor)
+  * Zuul & Airship (declarative bare-metal to cloud lifecycle management & multi-repo CI/CD gating)
+  * Ceph (petabyte-scale distributed object/block storage replacing AWS S3 and proprietary SAN arrays)
+* Malaysian Sovereign Open Infrastructure Consortium (MSOIC) Proposal:
+  * Transparent national body uniting anchor GLCs: TM (fiber & datacenters), TNB (green energy & Allo OPGW fiber), PETRONAS (capital & industrial HPC/AI)
+  * Pooled sovereign funding model (reallocating foreign license spend to domestic Ringgit fund)
+  * Local talent engine: National Open Cloud Engineering Academy & upstream contributor fellowships
 * Nextcloud
 * Matrix
 * Mastodon

@@ -19,13 +19,13 @@ Setiap cadangan dinilai berdasarkan tahap kematangan, tahap kesukaran pelaksanaa
 | **6. Pemesejan** | WhatsApp, Slack, Teams Chat | **Matrix / Element, Signal** | Sederhana (Intermediate) | Protokol Terbuka Terdesentralisasi |
 | **7. Media Sosial** | X, Facebook, Instagram, YouTube | **Mastodon, PeerTube** | Sederhana (Intermediate) | Tiada Algoritma Manipulasi |
 | **8. Sistem Operasi** | Windows 11, macOS, ChromeOS | **Debian, Ubuntu LTS, Linux Mint** | Mudah (Beginner) | Bebas Telemetri, Tiada Yuran Lesen |
-| **9. Infrastruktur Awan** | AWS EC2, GCP Compute, Azure VMs | **OpenStack, Proxmox VE** | Lanjutan (Advanced) | Kedaulatan Pusat Data Tempatan |
+| **9. Infrastruktur Awan & Maya** | AWS (EC2/VPC/S3), GCP, Azure, VMware (vSphere/VCF) | **OpenInfra (OpenStack, StarlingX, Kata) & Proxmox VE** | Lanjutan (Advanced) | Kedaulatan Pusat Data & Pelayan RM0 Lesen |
 | **10. Orkestrasi K8s** | AWS EKS, Google GKE, Terraform | **Kubernetes, K3s, OpenTofu** | Lanjutan (Advanced) | Piawaian Terbuka CNCF |
 | **11. Kecerdasan Buatan (AI)** | ChatGPT, Google Gemini, Copilot | **Ollama, LocalAI, vLLM** | Mudah (Beginner) | 100% Data Kekal Dalam Memori Tempatan |
 | **12. Penjanaan Imej** | Midjourney, DALL-E 3, Imagen | **ComfyUI, Stable Diffusion** | Sederhana (Intermediate) | Luar Talian, Hak Cipta Bebas |
 | **13. Penjanaan Video** | Runway Gen-3, OpenAI Sora | **CogVideoX, AnimateDiff** | Lanjutan (Advanced) | Model Terbuka (*Open Weights*) |
 | **14. Pangkalan Data** | AWS Aurora, Cloud SQL, MS SQL | **PostgreSQL, MariaDB** | Sederhana (Intermediate) | Standard Emas SQL, Bebas Lesen |
-| **15. DevOps & CI/CD** | GitHub Enterprise, Azure DevOps | **Forgejo, Woodpecker CI** | Sederhana (Intermediate) | Perlindungan Harta Intelek Kod |
+| **15. DevOps & CI/CD** | GitHub Enterprise, Azure DevOps | **Forgejo, Woodpecker CI, Zuul** | Sederhana (Intermediate) | Perlindungan Harta Intelek Kod |
 | **16. Pemantauan (Monitoring)**| Datadog, AWS CloudWatch | **Prometheus, Grafana (OSS)** | Sederhana (Intermediate) | Telemetri Tertutup Dalam Rangkaian |
 | **17. Pengesahan (Auth)** | Okta, Azure AD / Entra ID | **Keycloak, Authelia** | Lanjutan (Advanced) | Sedia MyDigital ID, FIDO2 |
 
@@ -46,6 +46,12 @@ Setiap cadangan dinilai berdasarkan tahap kematangan, tahap kesukaran pelaksanaa
 * **Ollama:** Membolehkan model bahasa raya (LLM) seperti Llama 3, DeepSeek, dan Mistral dijalankan secara tempatan di komputer riba atau pelayan organisasi.
 * **Mengapa ini kritikal?** Peguam, doktor, dan penjawat awam yang memasukkan dokumen sulit, rekod pesakit, atau draf rang undang-undang ke dalam ChatGPT atau Gemini mendedahkan data tersebut ke pelayan asing. Dengan Ollama, data tidak pernah keluar dari komputer pengguna.
 
-### 4. Infrastruktur Awan & Pusat Data (Jurutera & DevOps)
-* **Proxmox VE & OpenStack:** Menghapuskan kebergantungan kepada VMware dan perkhidmatan mesin maya AWS. Menyokong penskalaan daripada pelayan tunggal di pejabat kecil sehingga ke ratusan nod di pusat data nasional.
-* **OpenTofu:** Cabang sumber terbuka tulen kepada Terraform di bawah naungan Linux Foundation, menjamin kebebasan kod infrastruktur tanpa risiko perubahan lesen proprietari.
+### 4. Ekosistem Awan Berdaulat OpenInfra & Penggantian VMware / Hyperscaler (DevOps & Pusat Data)
+* **OpenInfra Foundation ([openinfra.org](https://openinfra.org)):** Menaungi 110,000+ jurutera global bagi membina perisian infrastruktur terbuka untuk menggantikan monopoli AWS, Google Cloud, Microsoft Azure, dan VMware:
+  * **OpenStack (Nova, Ironic, Neutron, Cinder, Swift):** Sistem pengendalian awan IaaS penuh. Menggantikan mesin maya AWS EC2 / Azure VMs dan virtualisasi VMware vSphere/ESXi. Dilengkapi modul *Ironic* yang membolehkan orkestrasi pelayan fizikal tanpa lapisan hipervisor—sangat penting bagi memacu kluster cip GPU AI berskala besar tanpa kehilangan kelajuan pemprosesan.
+  * **StarlingX:** Platform awan pinggir (*distributed edge cloud*) berkependaman ultra-rendah (< 1 milisaat). Direka khas untuk automasi pencawang grid elektrik (TNB), nod 5G O-RAN (TM), dan loji industri minyak/gas (PETRONAS).
+  * **Kata Containers:** Membungkus kontena di dalam *microVM* terasing menggunakan pengasingan cip perkakasan (VT-x/AMD-V). Menggantikan AWS Firecracker dan Google gVisor bagi menjamin keselamatan *Zero-Trust* antara kementerian kerajaan yang berkongsi pelayan fizikal yang sama.
+  * **Ceph:** Storan teragih berskala exabyte yang menggantikan AWS S3, Google Cloud Storage, dan perkakasan storan proprietari mahal. Data disalin secara aktif merentasi pusat data domestik tanpa caj pengeluaran data (*zero egress fees*).
+  * **Proxmox VE:** Alternatif hipervisor KVM/LXC berkelas perusahaan yang sangat pantas dan mesra pentadbir untuk menggantikan VMware ESXi di pejabat dan pusat data sederhana.
+  * **OpenTofu & Zuul:** Alternatif terbuka kepada Terraform dan GitHub Actions bagi memastikan saluran automasi infrastruktur tidak terkunci kepada vendor proprietari.
+* *(Lihat kertas cadangan dasar penuh Konsortium Awan GLC Malaysia di [`research/malaysia/openinfra_sovereign_cloud_proposal.md`](../research/malaysia/openinfra_sovereign_cloud_proposal.md)).*

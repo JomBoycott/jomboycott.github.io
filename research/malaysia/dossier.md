@@ -72,6 +72,13 @@ Malaysia mempunyai prasarana telekomunikasi dan pusat data domestik yang kukuh y
 * **AIMS Data Centre (Time dotCom):** Hab interkoneksi neutral terbesar di Malaysia.
 * **Penyedia Hosting Tempatan:** Exabytes, Shinjiru, Casbay, MyLoca yang mampu menyokong keperluan PKS dengan kos mata wang tempatan (Ringgit Malaysia) tanpa terdedah kepada turun naik kadar pertukaran mata wang asing.
 
+### 4.4 Cadangan Strategik: Konsortium Awan Berdaulat Terbuka Malaysia (MSOIC)
+Kerajaan disyorkan menubuhkan badan telus kebangsaan yang menggabungkan tiga GLC gergasi—**Telekom Malaysia (TM)**, **Tenaga Nasional Berhad (TNB)**, dan **PETRONAS**—untuk membina awan berdaulat berasaskan ekosistem **[OpenInfra Foundation (openinfra.org)](https://openinfra.org/)**:
+* **Menggantikan AWS, GCP, Azure & VMware:** Melaksanakan **OpenStack** (IaaS penuh), **StarlingX** (awan pinggir / *edge cloud* untuk pencawang TNB dan 5G TM), **Kata Containers** (pengasingan keselamatan *microVM* bertaraf pertahanan), dan **Ceph** (storan teragih berdaulat S3).
+* **Sinergi Aset GLC:** TM membekalkan ketersambungan gentian dan pusat data Tier III; TNB menjana kuasa solar/hidro hijau dan gentian OPGW Allo Technology; PETRONAS menyediakan pembiayaan modal, tadbir urus projek mega, serta beban kerja pengkomputeran berprestasi tinggi (HPC).
+* **Enjin Bakat & Dana Tempatan:** Mengalihkan 15%–20% perbelanjaan lesen asing tahunan ke dalam Tabung Infrastruktur Awan Terbuka Kebangsaan dan melatih jurutera tempatan menjadi penyumbang kod *upstream* bertaraf antarabangsa.
+* *(Baca kertas dasar komprehensif di [`research/malaysia/openinfra_sovereign_cloud_proposal.md`](openinfra_sovereign_cloud_proposal.md)).*
+
 ---
 
 ## 5. Matriks Perbandingan: Monopoli Asing vs. Alternatif Berdaulat
@@ -79,9 +86,12 @@ Malaysia mempunyai prasarana telekomunikasi dan pusat data domestik yang kukuh y
 | Domain | Monopoli Big Tech Asing | Alternatif Berdaulat Sumber Terbuka | Manfaat Malaysia |
 | :--- | :--- | :--- | :--- |
 | **Produktiviti Pejabat** | Google Docs / Microsoft 365 | Nextcloud Hub + LibreOffice / OnlyOffice | Data kekal dalam premis, tiada yuran bulanan per kepala, privasi penuh. |
-| **Penyimpanan Fail** | Google Drive / OneDrive / AWS S3 | Nextcloud + MinIO Object Storage | Storan tempatan berdaulat, sedia integrasi enkripsi hujung-ke-hujung. |
+| **Penyimpanan Fail** | Google Drive / OneDrive / AWS S3 | Nextcloud + MinIO / Ceph Object Storage | Storan tempatan berdaulat, sedia integrasi enkripsi hujung-ke-hujung. |
 | **Komunikasi Pasukan** | WhatsApp / Slack / MS Teams | Matrix / Element / Zulip / Mattermost | Pelayan boleh dihoskan di pusat data TM One, kawalan penuh log audit. |
-| **Pengkomputeran Awan** | AWS EC2 / Google Cloud Compute | Linux + Kubernetes + OpenStack / Proxmox | Tiada risiko CLOUD Act AS, kos Ringgit Malaysia, kebebasan kod sumber. |
+| **Infrastruktur Awan (IaaS)** | AWS EC2 / Google Compute / Azure VMs | **OpenStack (Nova, Ironic, Neutron)** | 100% kod sumber terbuka, tiada risiko Akta CLOUD AS, sokongan kluster GPU AI mentah (*bare-metal*). |
+| **Virtualisasi Pusat Data** | VMware vSphere / ESXi / VCF | **OpenStack + Proxmox VE (KVM)** | Menghapuskan kenaikan lesen 300%-1000% Broadcom, kebebasan operasi pelayan fizikal. |
+| **Awan Pinggir (Edge Cloud)** | AWS Outposts / Google Distributed Edge | **StarlingX (OpenInfra)** | Kependaman < 1ms untuk automasi grid elektrik TNB, telekomunikasi 5G O-RAN TM, dan luar pesisir PETRONAS. |
+| **Keselamatan Multi-Penyewa** | AWS Firecracker / Google gVisor | **Kata Containers (OpenInfra)** | Pengasingan perkakasan *microVM* sebenar; selamat untuk perkongsian hos antara kementerian awam. |
 | **Kecerdasan Buatan** | OpenAI / Google Vertex AI / AWS Bedrock | Ollama + DeepSeek-R1 / LLaMA-3 + Local GPU | Data latihan tidak dihantar ke AS, privasi rahsia industri dan rekod perubatan. |
 
 ---
